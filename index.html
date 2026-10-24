@@ -5061,7 +5061,7 @@
                 </div>
               </div>
     
-              <div class="swiper-slide" data-index="28" data-page="29" data-sp="34" data-status="COMPLETE">
+              <div class="swiper-slide" data-index="28" data-page="29" data-sp="34" data-status="AWAITING_USER">
                 <div class="cv-spread-wrapper">
                   <div class="cv-page-frame">
                     <div class="cv-frame-tag orig">원작 흑백 · P.34</div>
@@ -5069,17 +5069,15 @@
                       <img src="./aistory/upload/comic/muhwang_01_full/page_027.jpg" alt="원작 흑백 · P.34" loading="lazy">
                     </div>
                   </div>
-                  
                   <div class="cv-page-frame">
-                    <div class="cv-frame-tag indigo">캐릭터시트 적용 정본 · P.29</div>
-                    <div class="cv-canvas-wrap" onclick="openLightbox('./aistory/assets/muhwang-live73/media/outputs/MWJ-TA-P034-FULL-001.png', '캐릭터시트 적용 정본 · P.29')">
-                      <img src="./aistory/assets/muhwang-live73/media/outputs/MWJ-TA-P034-FULL-001.png" alt="캐릭터시트 적용 정본 · P.29" loading="lazy">
+                    <div class="cv-frame-tag indigo">원본 조판 디자인 후보 · 사용자 검토 대기 · P.29</div>
+                    <div class="cv-canvas-wrap" onclick="openLightbox('./aistory/assets/muhwang-live73/media/outputs/MWJ-V2-P034-SOURCE-DESIGN-CANDIDATE-v3.png', '원본 조판 디자인 후보 · P.29')">
+                      <img src="./aistory/assets/muhwang-live73/media/outputs/MWJ-V2-P034-SOURCE-DESIGN-CANDIDATE-v3.png" alt="원본 조판 디자인 후보 · P.29" loading="lazy">
                     </div>
                   </div>
-        
                 </div>
               </div>
-    
+
               <div class="swiper-slide" data-index="29" data-page="30" data-sp="35" data-status="COMPLETE">
                 <div class="cv-spread-wrapper">
                   <div class="cv-page-frame">
@@ -21296,7 +21294,7 @@
     function initCompareSwiper() {
       if (typeof Swiper === 'undefined' || compareSwiper) return;
       compareSwiper = new Swiper('#compareSwiper', {
-        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: true },
+        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: false },
         on: { slideChange: updateV1Controls }
       });
       document.getElementById('compareRangeV1')?.addEventListener('input', (e) => {
@@ -21324,7 +21322,7 @@
     function initV2CompareSwiper() {
       if (typeof Swiper === 'undefined' || v2CompareSwiper) return;
       v2CompareSwiper = new Swiper('#v2CompareSwiper', {
-        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: true },
+        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: false },
         on: { slideChange: updateV2Controls }
       });
       document.getElementById('v2CompareRange')?.addEventListener('input', (e) => {
@@ -21352,7 +21350,7 @@
     function initV3CompareSwiper() {
       if (typeof Swiper === 'undefined' || v3CompareSwiper) return;
       v3CompareSwiper = new Swiper('#v3CompareSwiper', {
-        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: true },
+        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: false },
         on: { slideChange: updateV3Controls }
       });
       document.getElementById('v3CompareRange')?.addEventListener('input', (e) => {
@@ -21380,7 +21378,7 @@
     function initBwCompareSwiper() {
       if (typeof Swiper === 'undefined' || bwCompareSwiper) return;
       bwCompareSwiper = new Swiper('#bwCompareSwiper', {
-        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: true },
+        slidesPerView: 1, spaceBetween: 0, speed: 250, keyboard: { enabled: false },
         on: { slideChange: updateV4Controls }
       });
       document.getElementById('bwCompareRange')?.addEventListener('input', (e) => {
@@ -21514,27 +21512,29 @@
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
         document.getElementById('lightbox')?.classList.remove('active');
-      } else if (e.key === 'ArrowLeft') {
-        if (document.getElementById('sec-v1').classList.contains('active')) compareSwiper?.slidePrev();
-        else if (document.getElementById('sec-v2').classList.contains('active')) {
-          if (document.getElementById('viewV2Viewer').style.display !== 'none') v2CompareSwiper?.slidePrev();
-        }
-        else if (document.getElementById('sec-v3').classList.contains('active')) {
-          if (document.getElementById('viewV3Viewer').style.display !== 'none') v3CompareSwiper?.slidePrev();
-          else v3Prev();
-        }
-        else if (document.getElementById('sec-v4').classList.contains('active')) bwCompareSwiper?.slidePrev();
-      } else if (e.key === 'ArrowRight') {
-        if (document.getElementById('sec-v1').classList.contains('active')) compareSwiper?.slideNext();
-        else if (document.getElementById('sec-v2').classList.contains('active')) {
-          if (document.getElementById('viewV2Viewer').style.display !== 'none') v2CompareSwiper?.slideNext();
-        }
-        else if (document.getElementById('sec-v3').classList.contains('active')) {
-          if (document.getElementById('viewV3Viewer').style.display !== 'none') v3CompareSwiper?.slideNext();
-          else v3Next();
-        }
-        else if (document.getElementById('sec-v4').classList.contains('active')) bwCompareSwiper?.slideNext();
+        return;
       }
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') return;
+      const target = e.target;
+      if (target && (target.matches('input, textarea, select') || target.isContentEditable)) return;
+      if (document.getElementById('lightbox')?.classList.contains('active')) return;
+
+      let activeSwiper = null;
+      if (document.getElementById('sec-v1').classList.contains('active') && document.getElementById('viewV1Viewer').style.display !== 'none') activeSwiper = compareSwiper;
+      else if (document.getElementById('sec-v2').classList.contains('active') && document.getElementById('viewV2Viewer').style.display !== 'none') activeSwiper = v2CompareSwiper;
+      else if (document.getElementById('sec-v3').classList.contains('active')) {
+        if (document.getElementById('viewV3Viewer').style.display !== 'none') activeSwiper = v3CompareSwiper;
+        else if (document.getElementById('viewV3Intro').style.display !== 'none') {
+          e.preventDefault();
+          if (e.key === 'ArrowLeft') v3Prev(); else v3Next();
+          return;
+        }
+      }
+      else if (document.getElementById('sec-v4').classList.contains('active') && document.getElementById('viewV4Viewer').style.display !== 'none') activeSwiper = bwCompareSwiper;
+
+      if (!activeSwiper) return;
+      e.preventDefault();
+      if (e.key === 'ArrowLeft') activeSwiper.slidePrev(); else activeSwiper.slideNext();
     });
 
     document.addEventListener('DOMContentLoaded', () => {
