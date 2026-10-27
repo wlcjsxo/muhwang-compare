@@ -685,33 +685,305 @@
       border-radius: 20px;
       border: 1px solid var(--card-border);
     }
+  
+    /* B2B IR 제안서 및 Iframe 섹션 전용 스타일 */
+    .tab-section.iframe-section {
+      width: 100%;
+      height: calc(100vh - 50px);
+      padding: 0;
+      margin: 0;
+      border: none;
+      overflow: hidden;
+      display: none;
+    }
+    .tab-section.iframe-section.active {
+      display: block;
+    }
+    .tab-section.iframe-section iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      display: block;
+    }
+
+    .tab-section.proposal-section {
+      width: 100%;
+      height: calc(100vh - 50px);
+      overflow-y: auto;
+      padding: 30px 24px 80px;
+      background: radial-gradient(circle at 80% 10%, #1e1b4b 0%, #060a12 70%);
+      display: none;
+      box-sizing: border-box;
+    }
+    .tab-section.proposal-section.active {
+      display: block;
+    }
+    .proposal-container {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .ir-hero {
+      background: linear-gradient(135deg, rgba(30, 27, 75, 0.8) 0%, rgba(15, 23, 42, 0.9) 100%);
+      border: 1px solid rgba(139, 92, 246, 0.35);
+      border-radius: 16px;
+      padding: 28px 32px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+      position: relative;
+      overflow: hidden;
+    }
+    .ir-hero::before {
+      content: "";
+      position: absolute;
+      top: -50px; right: -50px;
+      width: 200px; height: 200px;
+      background: radial-gradient(circle, rgba(99, 102, 241, 0.25) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .ir-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(245, 158, 11, 0.15);
+      border: 1px solid rgba(245, 158, 11, 0.4);
+      color: #fbbf24;
+      font-size: 11.5px;
+      font-weight: 800;
+      padding: 3px 10px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .ir-hero h1 {
+      font-size: 26px;
+      font-weight: 900;
+      line-height: 1.35;
+      color: #ffffff;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+    .ir-hero p.subtitle {
+      font-size: 14px;
+      color: #94a3b8;
+      line-height: 1.6;
+      margin-bottom: 22px;
+    }
+
+    .ir-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+    }
+    @media (max-width: 800px) {
+      .ir-stats-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    .ir-stat-card {
+      background: rgba(0, 0, 0, 0.3);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 12px;
+      padding: 14px 16px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    .ir-stat-card .val {
+      font-size: 22px;
+      font-weight: 900;
+      color: #f8fafc;
+    }
+    .ir-stat-card .val.gold { color: #f59e0b; }
+    .ir-stat-card .val.cyan { color: #38bdf8; }
+    .ir-stat-card .val.purple { color: #c084fc; }
+    .ir-stat-card .val.green { color: #34d399; }
+    .ir-stat-card .lbl {
+      font-size: 11.5px;
+      color: #94a3b8;
+      font-weight: 600;
+    }
+
+    .ir-section-card {
+      background: #0f172a;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 14px;
+      padding: 24px 28px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+    }
+    .ir-section-card h2 {
+      font-size: 18px;
+      font-weight: 800;
+      color: #f1f5f9;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .pipeline-compare {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 12px;
+    }
+    @media (max-width: 800px) {
+      .pipeline-compare { grid-template-columns: 1fr; }
+    }
+    .pipe-box {
+      border-radius: 12px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .pipe-box.old {
+      background: rgba(239, 68, 68, 0.05);
+      border: 1px dashed rgba(239, 68, 68, 0.3);
+    }
+    .pipe-box.new {
+      background: rgba(16, 185, 129, 0.07);
+      border: 1px solid rgba(16, 185, 129, 0.4);
+      box-shadow: 0 4px 16px rgba(16, 185, 129, 0.1);
+    }
+    .pipe-title {
+      font-size: 14.5px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .pipe-steps {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .pipe-step-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12.5px;
+      background: rgba(0,0,0,0.25);
+      padding: 7px 12px;
+      border-radius: 8px;
+      color: #e2e8f0;
+    }
+    .pipe-step-num {
+      width: 20px; height: 20px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.1);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 800; flex-shrink: 0;
+    }
+
+    .guide-action-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      margin-top: 16px;
+    }
+    @media (max-width: 800px) {
+      .guide-action-grid { grid-template-columns: 1fr; }
+    }
+    .guide-action-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 16px 18px;
+      text-decoration: none;
+      color: #f1f5f9;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      text-align: left;
+    }
+    .guide-action-btn:hover {
+      background: rgba(99, 102, 241, 0.15);
+      border-color: #818cf8;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(99, 102, 241, 0.25);
+    }
+    .guide-action-btn .btn-head {
+      font-size: 14.5px;
+      font-weight: 800;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .guide-action-btn .btn-desc {
+      font-size: 12px;
+      color: #94a3b8;
+      line-height: 1.4;
+    }
+
+    .v-tab-btn.purple.active {
+      background: #8b5cf6;
+      border-color: #8b5cf6;
+      color: #fff;
+      box-shadow: 0 0 12px rgba(139, 92, 246, 0.4);
+    }
+    .v-tab-btn.emerald.active {
+      background: #10b981;
+      border-color: #10b981;
+      color: #fff;
+      box-shadow: 0 0 12px rgba(16, 185, 129, 0.4);
+    }
+    .v-tab-btn.amber.active {
+      background: #f59e0b;
+      border-color: #f59e0b;
+      color: #000;
+      box-shadow: 0 0 12px rgba(245, 158, 11, 0.4);
+    }
+
   </style>
 </head>
 <body>
 
-  <!-- 상단 네비게이션 헤더 -->
+    <!-- 상단 네비게이션 헤더 -->
   <header>
     <div class="header-left">
       <div class="header-title">
-        <span class="title-text">무황기협전 [개정판]</span>
-        <small>미스터블루 제안용 쇼케이스</small>
+        <span class="title-text">미스터블루 x Horizon Studio</span>
+        <small style="background:linear-gradient(135deg, #f59e0b, #d97706); color:#000; font-weight:800; border:none; padding:2px 8px;">B2B IR 공식 제안</small>
       </div>
 
-      <!-- 4대 버전 셀렉터 툴바 -->
-      <nav class="version-tabs">
-        <button class="v-tab-btn active" onclick="switchVersion('v1', this)">
-          V1. 원작 컬러판 <span class="badge-pill">112쪽 전권</span>
+      <!-- 1. B2B 제안서 요약 탭 -->
+      <button class="v-tab-btn gold active" onclick="switchVersion('proposal', this)" style="background:linear-gradient(135deg, rgba(245,158,11,0.2), rgba(217,119,6,0.3)); border-color:#f59e0b; color:#fbbf24; font-weight:800;">
+        📜 B2B 전략 제안서 요약 <span class="badge-pill" style="background:#f59e0b; color:#000; font-weight:900;">IR 브리핑</span>
+      </button>
+
+      <!-- 2. 무협 3대 거장 캐릭터 DNA 레지스트리 -->
+      <div style="display:flex; align-items:center; gap:4px; padding-left:8px; border-left:1px solid rgba(255,255,255,0.15);">
+        <span style="font-size:11px; font-weight:700; color:#94a3b8; margin-right:2px; white-space:nowrap;">🧬 3대 거장 DNA:</span>
+        <button class="v-tab-btn purple" onclick="switchVersion('hwangseong', this)">
+          황성 캐릭터 DNA <span class="badge-pill">266인</span>
+        </button>
+        <button class="v-tab-btn emerald" onclick="switchVersion('yaseolrok', this)">
+          야설록 캐릭터 DNA <span class="badge-pill">166인</span>
+        </button>
+        <button class="v-tab-btn amber" onclick="switchVersion('goltong', this)">
+          하승남 골통 DNA <span class="badge-pill">29인</span>
+        </button>
+      </div>
+
+      <!-- 3. 무황기협전 4대 버전 비교 뷰어 -->
+      <div style="display:flex; align-items:center; gap:4px; padding-left:8px; border-left:1px solid rgba(255,255,255,0.15);">
+        <span style="font-size:11px; font-weight:700; color:#94a3b8; margin-right:2px; white-space:nowrap;">⚔️ 무황기협전 4대 버전:</span>
+        <button class="v-tab-btn" onclick="switchVersion('v1', this)">
+          V1. 원작 컬러판 <span class="badge-pill">112쪽</span>
         </button>
         <button class="v-tab-btn indigo" onclick="switchVersion('v2', this)">
-          V2. 캐릭터시트 적용 <span class="badge-pill">112쪽 대조관</span>
+          V2. 캐릭터시트 <span class="badge-pill" style="background:#818cf8; color:#000;">제작중</span>
         </button>
         <button class="v-tab-btn cyan" onclick="switchVersion('v3', this)">
-          V3. AI 시네마틱 연출 <span class="badge-pill">112쪽 대조관</span>
+          V3. 시네마틱 연출 <span class="badge-pill" style="background:#38bdf8; color:#000;">인트로</span>
         </button>
         <button class="v-tab-btn gold" onclick="switchVersion('v4', this)">
-          V4. 흑백 AI 리메이크 <span class="badge-pill">112쪽 대조관</span>
+          V4. 흑백 리메이크 <span class="badge-pill">112쪽</span>
         </button>
-      </nav>
+      </div>
     </div>
 
     <div class="header-right">
@@ -719,9 +991,222 @@
     </div>
   </header>
 
-  <main>
+    <main>
+    <!-- [섹션 0] B2B IR 전략 제안서 & 감상 가이드 (기본 활성화) -->
+    <section class="tab-section proposal-section active" id="sec-proposal">
+      <div class="proposal-container">
+        <!-- Hero Card -->
+        <div class="ir-hero">
+          <div class="ir-badge">✨ B2B PARTNERSHIP PROPOSAL · MR.BLUE (207760)</div>
+          <h1>미스터블루 무협 IP 디지털 전환(DX) 및 AI 파이프라인 도입 제안</h1>
+          <p class="subtitle">작전명: 청룡로(靑龍路) · 미얀마 현지 스튜디오 공정 대체의 경제성 분석과 3대 거장 72권 제작 실증 기반</p>
+          
+          <div class="ir-stats-grid">
+            <div class="ir-stat-card">
+              <span class="val gold">연 11.8억원</span>
+              <span class="lbl">미얀마 외주 거래비용 최적화 목표</span>
+            </div>
+            <div class="ir-stat-card">
+              <span class="val cyan">70%+ 압축</span>
+              <span class="lbl">제작 공정 리드타임 (수개월→주 단위)</span>
+            </div>
+            <div class="ir-stat-card">
+              <span class="val purple">461인+ 정본화</span>
+              <span class="lbl">3대 거장 캐릭터 DNA 영구 자산화</span>
+            </div>
+            <div class="ir-stat-card">
+              <span class="val green">100% 무과금</span>
+              <span class="lbl">AI 냄새 없는 정통 극화 화풍 실현</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 1: 제안 배경 -->
+        <div class="ir-section-card">
+          <h2><span>🏛️</span> 1. 제안 배경: 미스터블루의 현황과 공정 혁신 필요성</h2>
+          <p style="color:#cbd5e1; font-size:13.5px; line-height:1.7; margin-bottom:12px;">
+            미스터블루(207760)는 <strong>황성, 야설록, 하승남, 이재학, 사마달</strong> 등 대한민국 5대 무협 거장의 지식재산권(IP)을 독점 보유한 독보적인 무협 플랫폼입니다.<br>
+            그러나 공시(2025~2026H1) 기준 <strong>연간 약 11.8억원에 달하는 미얀마 자회사 외주 가공비용</strong>이 고정 투입되고 있으며, 전통적인 수작업 공정의 특성상 <strong>제작 리드타임 지연, 인건비 상승, 신작 공급 주기 한계</strong>라는 핵심 병목에 직면해 있습니다.
+          </p>
+          <div style="background:rgba(245,158,11,0.08); border-left:4px solid #f59e0b; padding:12px 16px; border-radius:4px; font-size:13px; color:#fde68a; line-height:1.6;">
+            <strong>핵심 결론:</strong> 미얀마 현지 인력의 수작업에 의존하던 뎃셍/작화/채색 렌더링 공정을 당사의 <strong>독자 AI 무협 파이프라인으로 전환</strong>함으로써, 연간 11.8억원의 외주비를 대폭 절감하고 권당 제작 속도를 70% 이상 단축할 수 있습니다.
+          </div>
+        </div>
+
+        <!-- Section 2: 공정 혁신 비교 -->
+        <div class="ir-section-card">
+          <h2><span>🔄</span> 2. 공정 혁신 대조: 기존 5단계 수작업 vs Horizon AI 원스톱 파이프라인</h2>
+          <p style="color:#cbd5e1; font-size:13.5px; line-height:1.6;">
+            미스터블루의 현재 공정에서 <strong>'대본'을 제외한 콘티, 뎃셍, 작화, 채색, 식자 전 과정을 당사가 일괄 처리</strong>할 수 있음을 본 쇼케이스를 통해 입증합니다.
+          </p>
+          
+          <div class="pipeline-compare">
+            <div class="pipe-box old">
+              <div class="pipe-title" style="color:#f87171;">
+                <span>기존 미스터블루 수작업 공정</span>
+                <span style="font-size:11px; background:rgba(239,68,68,0.2); padding:2px 8px; border-radius:10px;">권당 수주~수개월 소요</span>
+              </div>
+              <div class="pipe-steps">
+                <div class="pipe-step-item"><span class="pipe-step-num">1</span> <span>대본 작가 (스토리/시나리오 집필)</span></div>
+                <div class="pipe-step-item"><span class="pipe-step-num">2</span> <span>콘티 작가 (연출 및 컷 배분)</span></div>
+                <div class="pipe-step-item"><span class="pipe-step-num">3</span> <span>뎃셍 작가 (밑그림 및 구도 스케치)</span></div>
+                <div class="pipe-step-item"><span class="pipe-step-num">4</span> <span style="color:#fca5a5; font-weight:700;">미얀마 외주 (인물/배경 렌더링 작화 & 채색)</span></div>
+                <div class="pipe-step-item"><span class="pipe-step-num">5</span> <span>본사 식자 작업 (말풍선 및 대사 배치)</span></div>
+              </div>
+              <div style="font-size:11.5px; color:#94a3b8; margin-top:4px;">⚠️ 물리적 거리로 인한 피드백 지연, 외주비 지속 지출, 화풍 불일치 위험</div>
+            </div>
+
+            <div class="pipe-box new">
+              <div class="pipe-title" style="color:#34d399;">
+                <span>Horizon AI 원스톱 파이프라인</span>
+                <span style="font-size:11px; background:rgba(16,185,129,0.25); color:#6ee7b7; padding:2px 8px; border-radius:10px;">권당 수일 단위 완성 (70%+ 단축)</span>
+              </div>
+              <div class="pipe-steps">
+                <div class="pipe-step-item" style="border-left:3px solid #60a5fa;"><span class="pipe-step-num" style="background:#2563eb;">1</span> <span>미스터블루: [대본] 전달</span></div>
+                <div class="pipe-step-item" style="background:rgba(16,185,129,0.15); border-left:3px solid #10b981;"><span class="pipe-step-num" style="background:#059669;">2</span> <span style="font-weight:700; color:#a7f3d0;">Horizon AI 파이프라인 원스톱 처리:</span></div>
+                <div style="padding-left:26px; font-size:12px; color:#cbd5e1; line-height:1.6;">
+                  • <strong>거장 캐릭터 DNA 일치:</strong> 배우 정본에 기반한 얼굴/골격 100% 보존<br>
+                  • <strong>콘티 & 구도 자동 생성:</strong> 극화 무협 연출 공식 반영<br>
+                  • <strong>고화질 펜선 & 먹선 작화:</strong> 정통 흑백/컬러 화풍 완벽 재현<br>
+                  • <strong>스마트 식자:</strong> OCR 좌표 기반 말풍선/폰트 자동 동기화
+                </div>
+                <div class="pipe-step-item" style="border-left:3px solid #a855f7;"><span class="pipe-step-num" style="background:#7c3aed;">3</span> <span>최종 감수 후 즉시 플랫폼 출하 (출판만화/웹툰 뷰어 대응)</span></div>
+              </div>
+              <div style="font-size:11.5px; color:#a7f3d0; margin-top:4px;">✨ 해외 외주 불필요, 권당 제작비 60~70% 절감, 압도적 납기 준수</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 3: 효용 및 레퍼런스 -->
+        <div class="ir-section-card">
+          <h2><span>💎</span> 3. 당사 작업 결과물의 3대 핵심 효용 및 실증 레퍼런스</h2>
+          <div style="display:flex; flex-direction:column; gap:16px;">
+            <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:16px;">
+              <h3 style="font-size:15px; color:#a5b4fc; margin-bottom:6px;">a. 무협 거장 캐릭터 시트 현대화 (영구 자산화)</h3>
+              <p style="font-size:13px; color:#cbd5e1; line-height:1.6; margin:0;">
+                황성(266인), 야설록(166인), 하승남(29인) 등 거장의 수백 편 작품에 반복 캐스팅되는 <strong>영구 배우 정본(Permanent Actor Registry)</strong>을 구축했습니다. 얼굴, 골격, 표정, 먹선 DNA와 AI 재활용 프롬프트를 완전 규격화하여, 향후 어떤 신작이나 리메이크에도 캐릭터 붕괴 없이 동일 배우를 일관되게 출연시킬 수 있습니다.
+              </p>
+            </div>
+
+            <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:16px;">
+              <h3 style="font-size:15px; color:#6ee7b7; margin-bottom:6px;">b. 대표작 리메이크 & 독자 수용성 검증 (72권 실측)</h3>
+              <p style="font-size:13px; color:#cbd5e1; line-height:1.6; margin:0;">
+                황성 『혈견휴혈련환』 26권, 야설록 『도지산검지림』 21권, 하승남 『골통대난동』 25권 등 <strong>총 72권 전권의 인물과 배경을 실제로 변환/검증</strong>했습니다. 기존 4050 충성 독자의 향수를 자극하면서도, 어색한 AI 흔적('AI 냄새')이 전혀 없는 세련된 현대 극화체로 2030 신규 세대까지 사로잡을 수 있는 합격선 품질을 달성했습니다.
+              </p>
+            </div>
+
+            <div style="background:rgba(255,255,255,0.03); border:1px solid rgba(255,255,255,0.08); border-radius:10px; padding:16px;">
+              <h3 style="font-size:15px; color:#fde047; margin-bottom:6px;">c. 무황기협전 업그레이드 연재 추진 & 시네마틱 연출</h3>
+              <p style="font-size:13px; color:#cbd5e1; line-height:1.6; margin:0;">
+                오리지널 무협 IP인 『무황기협전』에 현대화된 캐릭터 시트와 시네마틱 연출(인트로 애니메틱)을 적용했습니다. 본 쇼케이스의 4대 버전 대조관을 통해 원작 스캔본 대비 차세대 풀컬러/시네마틱 연재의 비주얼 임팩트를 직접 체험하실 수 있습니다.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 4: 기대 효과 -->
+        <div class="ir-section-card">
+          <h2><span>🚀</span> 4. 미스터블루의 기대 효과 (Business Impact)</h2>
+          <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:12px;">
+            <div style="background:rgba(245,158,11,0.06); border:1px solid rgba(245,158,11,0.25); border-radius:10px; padding:16px;">
+              <div style="font-size:24px; margin-bottom:6px;">💰</div>
+              <h4 style="font-size:14.5px; font-weight:800; color:#fbbf24; margin-bottom:6px;">미얀마 외주비 절감</h4>
+              <p style="font-size:12.5px; color:#94a3b8; line-height:1.5; margin:0;">연간 약 11.8억원 규모의 해외 법인 및 외주 가공비를 60% 이상 절감하여 영업이익률 대폭 개선.</p>
+            </div>
+            <div style="background:rgba(56,189,248,0.06); border:1px solid rgba(56,189,248,0.25); border-radius:10px; padding:16px;">
+              <div style="font-size:24px; margin-bottom:6px;">⚡</div>
+              <h4 style="font-size:14.5px; font-weight:800; color:#38bdf8; margin-bottom:6px;">제작 리드타임 70%+ 압축</h4>
+              <p style="font-size:12.5px; color:#94a3b8; line-height:1.5; margin:0;">권당 수개월의 제작 기간을 주 단위로 단축하여, 시장 트렌드에 즉각 반응하는 신작 파이프라인 구축.</p>
+            </div>
+            <div style="background:rgba(168,85,247,0.06); border:1px solid rgba(168,85,247,0.25); border-radius:10px; padding:16px;">
+              <div style="font-size:24px; margin-bottom:6px;">🏆</div>
+              <h4 style="font-size:14.5px; font-weight:800; color:#c084fc; margin-bottom:6px;">차세대 무협 플랫폼 선점</h4>
+              <p style="font-size:12.5px; color:#94a3b8; line-height:1.5; margin:0;">단순 구작 흑백 스캔본 유통을 넘어, 고화질 풀컬러·시네마틱 리메이크 무협 콘텐츠 시장을 독점 선점.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 5: 감상 가이드 & 원클릭 이동 -->
+        <div class="ir-section-card" style="border-color:rgba(99,102,241,0.4); background:linear-gradient(135deg, rgba(15,23,42,0.95), rgba(30,27,75,0.6));">
+          <h2><span>🧭</span> 5. 쇼케이스 감상 가이드 (실무자를 위한 관전 포인트)</h2>
+          <p style="color:#cbd5e1; font-size:13.5px; line-height:1.6; margin-bottom:14px;">
+            아래 바로가기 버튼 또는 <strong>상단 네비게이션 툴바</strong>를 클릭하여 각 파트별 실증 작업물을 직접 검토해 보십시오.
+          </p>
+          
+          <div class="guide-action-grid">
+            <button class="guide-action-btn" onclick="switchVersion('hwangseong', document.querySelector('.v-tab-btn.purple'))">
+              <div class="btn-head">
+                <span style="color:#c084fc;">🧬 황성 캐릭터 DNA (266인)</span>
+                <span>↗</span>
+              </div>
+              <div class="btn-desc">혈견휴혈련환 26권 전수 분석. 266명 영구 배우 원장의 얼굴·먹선·컬러 정본과 AI 프롬프트 확인</div>
+            </button>
+
+            <button class="guide-action-btn" onclick="switchVersion('yaseolrok', document.querySelector('.v-tab-btn.emerald'))">
+              <div class="btn-head">
+                <span style="color:#6ee7b7;">🧬 야설록 캐릭터 DNA (166인)</span>
+                <span>↗</span>
+              </div>
+              <div class="btn-desc">도지산검지림 21권 전수 분석. 166명 배우 정본 및 전 21권 4,429쪽 전수 대조 데이터 확인</div>
+            </button>
+
+            <button class="guide-action-btn" onclick="switchVersion('goltong', document.querySelector('.v-tab-btn.amber'))">
+              <div class="btn-head">
+                <span style="color:#fbbf24;">🧬 하승남 골통 DNA (29인)</span>
+                <span>↗</span>
+              </div>
+              <div class="btn-desc">골통대난동 25권 기반. 과장 표정/골격 DNA 복원 및 2,898쪽 OCR 대본 연동 실측 현황</div>
+            </button>
+
+            <button class="guide-action-btn" onclick="switchVersion('v1', document.querySelectorAll('.v-tab-btn')[4])">
+              <div class="btn-head">
+                <span style="color:#38bdf8;">⚔️ 무황기협전 V1 (원작 컬러)</span>
+                <span>↗</span>
+              </div>
+              <div class="btn-desc">112쪽 전권 고해상도 출판만화 원작 컬러 뷰어. 스와이프 및 좌우 방향키로 감상</div>
+            </button>
+
+            <button class="guide-action-btn" onclick="switchVersion('v2', document.querySelectorAll('.v-tab-btn')[5])">
+              <div class="btn-head">
+                <span style="color:#818cf8;">⚔️ 무황기협전 V2 (캐릭터시트)</span>
+                <span>↗</span>
+              </div>
+              <div class="btn-desc">원작 페이지 vs 캐릭터 시트 적용본 1:1 대조관. 신규 캐릭터 적용 렌더링 실증</div>
+            </button>
+
+            <button class="guide-action-btn" onclick="switchVersion('v3', document.querySelectorAll('.v-tab-btn')[6])">
+              <div class="btn-head">
+                <span style="color:#38bdf8;">🎬 무황기협전 V3 (시네마틱 연출)</span>
+                <span>↗</span>
+              </div>
+              <div class="btn-desc">1~14p 시네마틱 인트로 연출관 및 1:1 대조 뷰어. 차세대 역동적 무협 연출 체험</div>
+            </button>
+          </div>
+        </div>
+
+        <div style="text-align:center; padding:10px 0; color:#64748b; font-size:12px;">
+          미스터블루 x Horizon Studio · 무협 IP 디지털 전환(DX) B2B 실무 제안 포털 · Confidential
+        </div>
+      </div>
+    </section>
+
+    <!-- [섹션 0-1] 황성 캐릭터 DNA Iframe -->
+    <section class="tab-section iframe-section" id="sec-hwangseong">
+      <iframe src="hwangseong.html" title="황성DNA 캐릭터 배우 원장"></iframe>
+    </section>
+
+    <!-- [섹션 0-2] 야설록 캐릭터 DNA Iframe -->
+    <section class="tab-section iframe-section" id="sec-yaseolrok">
+      <iframe src="yaseolrok.html" title="야설록DNA 캐릭터 배우 원장"></iframe>
+    </section>
+
+    <!-- [섹션 0-3] 하승남 캐릭터 DNA Iframe -->
+    <section class="tab-section iframe-section" id="sec-goltong">
+      <iframe src="goltong.html" title="하승남DNA 캐릭터 배우 원장"></iframe>
+    </section>
+
     <!-- [섹션 1] V1: 원작 컬러판 112쪽 전권 1:1 대조 뷰어 -->
-    <section class="tab-section active" id="sec-v1">
+    <section class="tab-section" id="sec-v1">
       <div class="compare-viewer-container">
         <div class="v-sub-bar">
           <div>

@@ -1,0 +1,2820 @@
+{
+  "schema": "Goltong-Unresolved-Character-Register-v1",
+  "work_id": "goltong",
+  "total_identity_units": 93,
+  "resolved_identity_units": 42,
+  "unresolved_identity_units": 51,
+  "distinct_unresolved_candidates": 45,
+  "image_candidates_in_review": 44,
+  "image_candidates_remaining": 1,
+  "production_class_counts": {
+    "CREATURE_SHEET": 2,
+    "ENSEMBLE_SHEET": 9,
+    "EXTRA_SHEET": 21,
+    "FACE_MAPPING": 3,
+    "NAMED_CANDIDATE": 7,
+    "PROP_SHEET": 1,
+    "RECURRING_CANDIDATE": 2
+  },
+  "policy": "Do not promote a descriptive label into a canonical named actor. OCR and original-image evidence must lock identity first.",
+  "candidates": [
+    {
+      "candidate_id": "GTD-CAND-001",
+      "display_name": "도입부 장발 검객",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U002"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p003.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 4,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p004.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 5,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p005.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 8,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p008.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 9,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p009.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 10,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p010.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 11,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p011.jpg"
+        }
+      ],
+      "statuses": [
+        "UNKNOWN"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-001/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-001/metadata.json",
+        "result_sha256": "ECD410327EB2D723B00C95BBB8F3B63C57F9B3FEE427CF4A860496C95EFF02F0",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-002",
+      "display_name": "도입부 뱀채찍 여인",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U003"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 7,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p007.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 10,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p010.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 11,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p011.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 12,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p012.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 13,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p013.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 14,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p014.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 16,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p016.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 17,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p017.jpg"
+        }
+      ],
+      "statuses": [
+        "UNKNOWN"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-002/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-002/metadata.json",
+        "result_sha256": "7A329E37B498FC802468B370C6648B43659A6F516C41F0D19CA37D1519899114",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-003",
+      "display_name": "도입부 피습 무사 군상",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U004"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p003.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 4,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p004.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 5,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p005.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 6,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p006.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 9,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p009.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 15,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p015.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 17,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p017.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 18,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p018.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-003/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-003/metadata.json",
+        "result_sha256": "9C1C0153BA8A859B005164EBB005F67B6C2C2978750ED34D9D66855990505857",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-004",
+      "display_name": "원형 흉갑의 거구 지휘자",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U005"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 24,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p024.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 26,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p026.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 27,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p027.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 28,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p028.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 29,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p029.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 30,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p030.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 31,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p031.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 34,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p034.jpg"
+        }
+      ],
+      "statuses": [
+        "UNKNOWN"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-004/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-004/metadata.json",
+        "result_sha256": "303E2D9DD856867DFE9011685A2D8CA845C3152245F8A7A0D8B4A438AD773DE9",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-005",
+      "display_name": "두건·목도리의 둥근 거한",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U006"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 24,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p024.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 26,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p026.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 27,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p027.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 28,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p028.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 29,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p029.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 30,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p030.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 31,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p031.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 35,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p035.jpg"
+        }
+      ],
+      "statuses": [
+        "UNKNOWN"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-005/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-005/metadata.json",
+        "result_sha256": "4C0A6A48D03D031AE7F6D7E94C67B73392969F6D6812714C3074725A9D4862C7",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-006",
+      "display_name": "수염 산채인 A",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U007"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 24,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p024.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 26,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p026.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 27,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p027.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 28,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p028.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 31,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p031.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 35,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p035.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 49,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p049.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 50,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p050.jpg"
+        }
+      ],
+      "statuses": [
+        "UNKNOWN"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-006/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-006/metadata.json",
+        "result_sha256": "F9E91B2C894FE000820C0766AC8D72812C653B8A7083B124233C768481CDD549",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-007",
+      "display_name": "산채 부하 군상",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U008"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 24,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p024.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 25,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p025.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 26,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p026.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 27,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p027.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 30,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p030.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 35,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p035.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 36,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p036.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 37,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p037.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-007/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-007/metadata.json",
+        "result_sha256": "C256607757BA0CFF25842097D71826265D393F9CA556786E8B1619B3BC399DD3",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-008",
+      "display_name": "돼지코 거구 호위",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U009"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 72,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p072.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 75,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p075.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 76,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p076.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 77,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p077.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 79,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p079.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 80,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p080.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 81,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p081.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 82,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p082.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-008/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-008/metadata.json",
+        "result_sha256": "778FB986106A8C5E4F1BFAC97F8E768C3A6A664A472C0BF574D652612CF2DCB4",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-009",
+      "display_name": "단신 삭발 호위",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U010"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 72,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p072.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 75,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p075.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 76,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p076.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 77,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p077.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 79,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p079.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 80,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p080.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 81,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p081.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 82,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p082.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-009/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-009/metadata.json",
+        "result_sha256": "EEB7ABBD7EC2075C341A09669335C35BAF82574BF1FD9D2268A5CC0933A06914",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-010",
+      "display_name": "표범 반점 두피의 무사",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U011"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 105,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p105.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 106,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p106.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 107,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p107.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 108,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p108.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 109,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p109.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 110,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p110.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 111,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p111.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 112,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p112.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-010/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-010/metadata.json",
+        "result_sha256": "C67D976B6677415C76C7F221D693FFEF9FB5305CF066C13802C8EA25DE9175B0",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-011",
+      "display_name": "산멧돼지",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U012"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 61,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p061.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 64,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p064.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 66,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p066.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 67,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p067.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 68,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p068.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 69,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p069.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 70,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p070.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 71,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p071.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "CREATURE_SHEET",
+      "next_action": "비인간 반복체 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-011/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-011/metadata.json",
+        "result_sha256": "97AFC2FE5C6487BB10572E40CC0812CEFC8B78B54C698C6ED6AA51DD97C7868F",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-012",
+      "display_name": "뱀형 채찍",
+      "volumes": [
+        1
+      ],
+      "unit_ids": [
+        "GTD-V01-U014"
+      ],
+      "evidence": [
+        {
+          "volume": 1,
+          "page": 11,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p011.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 12,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p012.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 13,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p013.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 16,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p016.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 17,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p017.jpg"
+        },
+        {
+          "volume": 1,
+          "page": 18,
+          "source_url": "/aistory/upload/comic/goltong_01/goltong_vol01_p018.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "PROP_SHEET",
+      "next_action": "소도구 DNA 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-012/color-in-review-v1.svg",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-012/metadata.json",
+        "result_sha256": "8595B190D8448B93BA9AF44CCA684FCCF7187236221CEDE38947F346F8625A14",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-014",
+      "display_name": "녹림천존의 외팔 큰아들",
+      "volumes": [
+        2
+      ],
+      "unit_ids": [
+        "GTD-V02-U004"
+      ],
+      "evidence": [
+        {
+          "volume": 2,
+          "page": 24,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p024.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 25,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p025.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 26,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p026.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 27,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p027.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 28,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p028.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 29,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p029.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 30,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p030.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 31,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p031.jpg"
+        }
+      ],
+      "statuses": [
+        "RELATION_LOCKED_NAME_UNKNOWN"
+      ],
+      "production_class": "NAMED_CANDIDATE",
+      "next_action": "고유명 정본 후보 - 얼굴 대조 후 배우화",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-014/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-014/metadata.json",
+        "result_sha256": "1F24F41A9ED381E75265AAB69A5A815673B5CD49328FC78A9A486BB8C71D6971",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-015",
+      "display_name": "비룡표국 여국주",
+      "volumes": [
+        2
+      ],
+      "unit_ids": [
+        "GTD-V02-U008"
+      ],
+      "evidence": [
+        {
+          "volume": 2,
+          "page": 96,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p096.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 97,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p097.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 98,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p098.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 99,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p099.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 100,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p100.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 101,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p101.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 102,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p102.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 103,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p103.jpg"
+        }
+      ],
+      "statuses": [
+        "TITLE_LOCKED_NAME_UNKNOWN"
+      ],
+      "production_class": "NAMED_CANDIDATE",
+      "next_action": "고유명 정본 후보 - 얼굴 대조 후 배우화",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-015/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-015/metadata.json",
+        "result_sha256": "65237367E826E690033C3FB76A28786B32D37E8428E248E06F93AA0768DB56FF",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-016",
+      "display_name": "우홍관",
+      "volumes": [
+        2
+      ],
+      "unit_ids": [
+        "GTD-V02-U009"
+      ],
+      "evidence": [
+        {
+          "volume": 2,
+          "page": 23,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p023.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 24,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p024.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 25,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p025.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 26,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p026.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 27,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p027.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 28,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p028.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 29,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p029.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 30,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p030.jpg"
+        }
+      ],
+      "statuses": [
+        "LOCKED"
+      ],
+      "production_class": "NAMED_CANDIDATE",
+      "next_action": "고유명 정본 후보 - 얼굴 대조 후 배우화",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-016/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-016/metadata.json",
+        "result_sha256": "8C887495ED3B74A055CB8615AF7B72557FC3B2BFB0CD01E138B106F363A77665",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-017",
+      "display_name": "녹림·수로연맹·표국 군상",
+      "volumes": [
+        2
+      ],
+      "unit_ids": [
+        "GTD-V02-U010"
+      ],
+      "evidence": [
+        {
+          "volume": 2,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p003.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 18,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p018.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 24,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p024.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 33,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p033.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 45,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p045.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 58,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p058.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 76,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p076.jpg"
+        },
+        {
+          "volume": 2,
+          "page": 93,
+          "source_url": "/aistory/upload/comic/goltong_02/goltong_vol02_p093.jpg"
+        }
+      ],
+      "statuses": [
+        "DESCRIPTIVE_ONLY"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-017/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-017/metadata.json",
+        "result_sha256": "9D79677AFB34F275D12B076490109F5A0F4FA1B67E04D4DC32C5748B9D7C3355",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-018",
+      "display_name": "소연의 털개",
+      "volumes": [
+        3,
+        4
+      ],
+      "unit_ids": [
+        "GTD-V03-U001",
+        "GTD-V04-U008"
+      ],
+      "evidence": [
+        {
+          "volume": 3,
+          "page": 12,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p012.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 37,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p037.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 43,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p043.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 47,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p047.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p003.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 9,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p009.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 12,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p012.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 13,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p013.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 14,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p014.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 25,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p025.jpg"
+        }
+      ],
+      "statuses": [
+        "NON_HUMAN_COMPANION",
+        "RECURRING_NONHUMAN"
+      ],
+      "production_class": "CREATURE_SHEET",
+      "next_action": "비인간 반복체 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-018/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-018/metadata.json",
+        "result_sha256": "E683F66CE12E09C3EA9400B46037B13C65C6B2A77AF601ADD5AF55B4CE17BBE9",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-019",
+      "display_name": "유세옥 추격대장",
+      "volumes": [
+        3
+      ],
+      "unit_ids": [
+        "GTD-V03-U002"
+      ],
+      "evidence": [
+        {
+          "volume": 3,
+          "page": 17,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p017.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 20,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p020.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 49,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p049.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 60,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p060.jpg"
+        }
+      ],
+      "statuses": [
+        "TITLE_ONLY_NAME_UNKNOWN"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-019/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-019/metadata.json",
+        "result_sha256": "E5EDBEB3A9D09F325DD7892E9BD79FE1FE56706E968A4712B836487EDBBC4CAF",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-020",
+      "display_name": "유세옥 추격 승려",
+      "volumes": [
+        3
+      ],
+      "unit_ids": [
+        "GTD-V03-U003"
+      ],
+      "evidence": [
+        {
+          "volume": 3,
+          "page": 17,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p017.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 20,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p020.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 49,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p049.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 60,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p060.jpg"
+        }
+      ],
+      "statuses": [
+        "RELATION_ONLY_NAME_UNKNOWN"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-020/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-020/metadata.json",
+        "result_sha256": "B964CA0CF20F7C72C14895941EF5BD389811CC63F54048DDAA13EAF74F3975D7",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-021",
+      "display_name": "소연 주변 아이들",
+      "volumes": [
+        3
+      ],
+      "unit_ids": [
+        "GTD-V03-E001"
+      ],
+      "evidence": [
+        {
+          "volume": 3,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p003.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 6,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p006.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 9,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p009.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 13,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p013.jpg"
+        }
+      ],
+      "statuses": [
+        "ENSEMBLE"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-021/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-021/metadata.json",
+        "result_sha256": "5E17AA14589FD78EC5AB86E1E40EF32AB8E58EC64800C3EB002999961C736F5D",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-022",
+      "display_name": "구양평 수하들",
+      "volumes": [
+        3
+      ],
+      "unit_ids": [
+        "GTD-V03-E002"
+      ],
+      "evidence": [
+        {
+          "volume": 3,
+          "page": 93,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p093.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 96,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p096.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 99,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p099.jpg"
+        },
+        {
+          "volume": 3,
+          "page": 104,
+          "source_url": "/aistory/upload/comic/goltong_03/goltong_vol03_p104.jpg"
+        }
+      ],
+      "statuses": [
+        "ENSEMBLE"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-022/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-022/metadata.json",
+        "result_sha256": "FDFD1099A7AB3BCBE68FF6EDBB01CEF3625AA3DE82AC78C522B3303D4DCA38E5",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-023",
+      "display_name": "장집사와 동행한 표국 노인",
+      "volumes": [
+        4
+      ],
+      "unit_ids": [
+        "GTD-V04-U001"
+      ],
+      "evidence": [
+        {
+          "volume": 4,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p003.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 4,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p004.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 5,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p005.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 10,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p010.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 26,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p026.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-023/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-023/metadata.json",
+        "result_sha256": "E2EE7EB77E2A8FD7E4D3B1F5C2FC8537C67CF4E8BD704710750F1D62181A81E2",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-024",
+      "display_name": "정자수의 거구 동료",
+      "volumes": [
+        4
+      ],
+      "unit_ids": [
+        "GTD-V04-U002"
+      ],
+      "evidence": [
+        {
+          "volume": 4,
+          "page": 29,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p029.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 30,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p030.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 31,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p031.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 33,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p033.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 48,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p048.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-024/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-024/metadata.json",
+        "result_sha256": "C243E935FFC9ABD2872356EBDAF2F8E1BCAEA9D281D60DDC2977AE96530469E6",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-025",
+      "display_name": "구양가 가주",
+      "volumes": [
+        4,
+        5,
+        6
+      ],
+      "unit_ids": [
+        "GTD-V04-U003",
+        "GTD-V05-U002",
+        "GTD-V06-U003"
+      ],
+      "evidence": [
+        {
+          "volume": 4,
+          "page": 40,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p040.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 41,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p041.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 42,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p042.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 43,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p043.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 44,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p044.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 49,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p049.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 51,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p051.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 57,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p057.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 61,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p061.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 71,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p071.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 77,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p077.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p003.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 6,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p006.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 7,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p007.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 14,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p014.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 17,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p017.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 73,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p073.jpg"
+        }
+      ],
+      "statuses": [
+        "LOCKED_BY_TITLE_ONLY"
+      ],
+      "production_class": "NAMED_CANDIDATE",
+      "next_action": "고유명 정본 후보 - 얼굴 대조 후 배우화",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-025/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-025/metadata.json",
+        "result_sha256": "4B5C2AAE6C09012055D8B244BD70232F6471B945F4491F61F74BCEEFC7890BF5",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-026",
+      "display_name": "냉사",
+      "volumes": [
+        4
+      ],
+      "unit_ids": [
+        "GTD-V04-U004"
+      ],
+      "evidence": [
+        {
+          "volume": 4,
+          "page": 41,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p041.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 42,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p042.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 43,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p043.jpg"
+        }
+      ],
+      "statuses": [
+        "LOCKED_BY_DIRECT_ADDRESS_AND_FACE"
+      ],
+      "production_class": "NAMED_CANDIDATE",
+      "next_action": "고유명 정본 후보 - 얼굴 대조 후 배우화",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-026/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-026/metadata.json",
+        "result_sha256": "DA41A2B9048F2763BFA1A09B1FEC33A7FC16A307AE9B657567875F3ABCC447B5",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-027",
+      "display_name": "구양세가 검은 두건 지휘자",
+      "volumes": [
+        4
+      ],
+      "unit_ids": [
+        "GTD-V04-U005"
+      ],
+      "evidence": [
+        {
+          "volume": 4,
+          "page": 75,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p075.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 77,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p077.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 78,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p078.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 79,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p079.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 82,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p082.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 86,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p086.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 93,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p093.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-027/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-027/metadata.json",
+        "result_sha256": "6C7636717381EC0A0E78DCACD114E99FA6E5D8AF5C2AADD1BA0D6BDD5DEF5901",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-028",
+      "display_name": "사마지인 측 젊은 표사",
+      "volumes": [
+        4
+      ],
+      "unit_ids": [
+        "GTD-V04-U006"
+      ],
+      "evidence": [
+        {
+          "volume": 4,
+          "page": 72,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p072.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 73,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p073.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 98,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p098.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 101,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p101.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 105,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p105.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 110,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p110.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 111,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p111.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-028/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-028/metadata.json",
+        "result_sha256": "B6BB5B88FC8ABD092096CB855FFF328417D4D20CB5EECFDA05C4BF2052F3B123",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-029",
+      "display_name": "사마지인 시녀",
+      "volumes": [
+        4,
+        5
+      ],
+      "unit_ids": [
+        "GTD-V04-U007",
+        "GTD-V05-U006"
+      ],
+      "evidence": [
+        {
+          "volume": 4,
+          "page": 16,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p016.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 18,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p018.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 44,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p044.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 58,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p058.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 98,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p098.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 99,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p099.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 103,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p103.jpg"
+        },
+        {
+          "volume": 4,
+          "page": 109,
+          "source_url": "/aistory/upload/comic/goltong_04/goltong_vol04_p109.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 3,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p003.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 4,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p004.jpg"
+        }
+      ],
+      "statuses": [
+        "RECURRING_UNRESOLVED",
+        "UNRESOLVED"
+      ],
+      "production_class": "RECURRING_CANDIDATE",
+      "next_action": "권간 동일인 여부를 먼저 대조",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-029/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-029/metadata.json",
+        "result_sha256": "86C1595DAE3CC167B8FD87689C230B47173B56705CE48ED7B12FD9E84759CF7C",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-030",
+      "display_name": "꽃장식 여표사",
+      "volumes": [
+        5,
+        6
+      ],
+      "unit_ids": [
+        "GTD-V05-U001",
+        "GTD-V06-U001"
+      ],
+      "evidence": [
+        {
+          "volume": 5,
+          "page": 28,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p028.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 29,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p029.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 32,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p032.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 33,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p033.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 100,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p100.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 101,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p101.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 109,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p109.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 112,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p112.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 45,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p045.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 46,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p046.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 47,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p047.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 76,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p076.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 101,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p101.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 109,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p109.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 112,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p112.jpg"
+        }
+      ],
+      "statuses": [
+        "RECURRING_UNRESOLVED",
+        "UNRESOLVED"
+      ],
+      "production_class": "RECURRING_CANDIDATE",
+      "next_action": "권간 동일인 여부를 먼저 대조",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-030/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-030/metadata.json",
+        "result_sha256": "F1F8757C3EAF8EA078DE8CA333FDABC95DFD27C464DBE0D704BE4E4918CD3B8D",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-031",
+      "display_name": "검은 장발 자객 지휘자",
+      "volumes": [
+        5
+      ],
+      "unit_ids": [
+        "GTD-V05-U003"
+      ],
+      "evidence": [
+        {
+          "volume": 5,
+          "page": 36,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p036.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 37,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p037.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 39,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p039.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 41,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p041.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 42,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p042.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-031/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-031/metadata.json",
+        "result_sha256": "DD1AB9FB7A1916FCC33B05BD84A3588C8E093389BEEA1F6E78AED4BB89633F08",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-032",
+      "display_name": "구양가 소가주 추정 부상자",
+      "volumes": [
+        5
+      ],
+      "unit_ids": [
+        "GTD-V05-U004"
+      ],
+      "evidence": [
+        {
+          "volume": 5,
+          "page": 43,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p043.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 46,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p046.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 55,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p055.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 58,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p058.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 62,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p062.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-032/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-032/metadata.json",
+        "result_sha256": "F0AF524951A9B7FE77A6E9F4C7FC68295262F1A92D6B2C10FA5B1B10CB7621E8",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-033",
+      "display_name": "복면 자객단",
+      "volumes": [
+        5
+      ],
+      "unit_ids": [
+        "GTD-V05-U005"
+      ],
+      "evidence": [
+        {
+          "volume": 5,
+          "page": 37,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p037.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 38,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p038.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 40,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p040.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 41,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p041.jpg"
+        }
+      ],
+      "statuses": [
+        "ENSEMBLE"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-033/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-033/metadata.json",
+        "result_sha256": "474B979CEEC3E94517262C80CA698E5757364CA312516E05F90167F1548CA569",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-034",
+      "display_name": "전백경을 추적하는 거구 정보상",
+      "volumes": [
+        5
+      ],
+      "unit_ids": [
+        "GTD-V05-U007"
+      ],
+      "evidence": [
+        {
+          "volume": 5,
+          "page": 99,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p099.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 102,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p102.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 103,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p103.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 106,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p106.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 108,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p108.jpg"
+        },
+        {
+          "volume": 5,
+          "page": 112,
+          "source_url": "/aistory/upload/comic/goltong_05/goltong_vol05_p112.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-034/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-034/metadata.json",
+        "result_sha256": "4511CFC227E193467C5A8234F44511B7DC45310A531CD4693F4FD5817EBB556D",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-035",
+      "display_name": "손군·발군 2인조",
+      "volumes": [
+        6,
+        7
+      ],
+      "unit_ids": [
+        "GTD-V06-U002",
+        "GTD-V07-U004"
+      ],
+      "evidence": [
+        {
+          "volume": 6,
+          "page": 45,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p045.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 46,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p046.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 101,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p101.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 103,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p103.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 109,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p109.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 110,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p110.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 113,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p113.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 48,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p048.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 50,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p050.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 86,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p086.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 89,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p089.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 91,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p091.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 93,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p093.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 95,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p095.jpg"
+        }
+      ],
+      "statuses": [
+        "NAMES_LOCKED_FACE_MAPPING_UNRESOLVED"
+      ],
+      "production_class": "FACE_MAPPING",
+      "next_action": "이름-얼굴 대응을 먼저 잠금",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-035/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-035/metadata.json",
+        "result_sha256": "6900EDA37639434785657F3A2BE1CE0C53FF3B2EE8CA910178D8876B20F00651",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-036",
+      "display_name": "구양공자 부상자",
+      "volumes": [
+        6
+      ],
+      "unit_ids": [
+        "GTD-V06-U004"
+      ],
+      "evidence": [
+        {
+          "volume": 6,
+          "page": 13,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p013.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 14,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p014.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 16,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p016.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 20,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p020.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 29,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p029.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 52,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p052.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 106,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p106.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-036/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-036/metadata.json",
+        "result_sha256": "37394A9617DFD02C3B930FB300C46E0FD76E36D1E607200C8D6417A4BED580C2",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-037",
+      "display_name": "검은 복면 추격대",
+      "volumes": [
+        6
+      ],
+      "unit_ids": [
+        "GTD-V06-U005"
+      ],
+      "evidence": [
+        {
+          "volume": 6,
+          "page": 41,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p041.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 42,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p042.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 43,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p043.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 44,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p044.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 108,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p108.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 113,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p113.jpg"
+        },
+        {
+          "volume": 6,
+          "page": 114,
+          "source_url": "/aistory/upload/comic/goltong_06/goltong_vol06_p114.jpg"
+        }
+      ],
+      "statuses": [
+        "ENSEMBLE"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-037/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-037/metadata.json",
+        "result_sha256": "437D4F6046E5148DE37A2B51BB8968885CD2123C34288CA613B0C35B64B1A07F",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-038",
+      "display_name": "얼굴 흉터 자객 지휘자",
+      "volumes": [
+        7
+      ],
+      "unit_ids": [
+        "GTD-V07-U001"
+      ],
+      "evidence": [
+        {
+          "volume": 7,
+          "page": 5,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p005.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 73,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p073.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 74,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p074.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 75,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p075.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 76,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p076.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 81,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p081.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 83,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p083.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 104,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p104.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-038/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-038/metadata.json",
+        "result_sha256": "D4C92E626D6419BEE6C0079B032F374B213FA5FD90D9492A11071D72720D80BA",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-039",
+      "display_name": "줄무늬 거구 산채 두목",
+      "volumes": [
+        7
+      ],
+      "unit_ids": [
+        "GTD-V07-U002"
+      ],
+      "evidence": [
+        {
+          "volume": 7,
+          "page": 31,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p031.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 35,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p035.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 36,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p036.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 37,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p037.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 38,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p038.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 39,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p039.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 41,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p041.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-039/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-039/metadata.json",
+        "result_sha256": "0EE74EF63FB382CA6AB1C1C23A3991EDC5DC18C6E54E72064E5EFADDA5808CEB",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-040",
+      "display_name": "백면인 자객단",
+      "volumes": [
+        7
+      ],
+      "unit_ids": [
+        "GTD-V07-U003"
+      ],
+      "evidence": [
+        {
+          "volume": 7,
+          "page": 16,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p016.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 18,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p018.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 19,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p019.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 20,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p020.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 84,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p084.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 86,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p086.jpg"
+        },
+        {
+          "volume": 7,
+          "page": 87,
+          "source_url": "/aistory/upload/comic/goltong_07/goltong_vol07_p087.jpg"
+        }
+      ],
+      "statuses": [
+        "ENSEMBLE"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-040/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-040/metadata.json",
+        "result_sha256": "A02B46FAF7833A1941880874D01EDE8906DB4CB4572E6607A5C7F18D4D3E638D",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-041",
+      "display_name": "철옹",
+      "volumes": [
+        8
+      ],
+      "unit_ids": [
+        "GTD-V08-U001"
+      ],
+      "evidence": [
+        {
+          "volume": 8,
+          "page": 59,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p059.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 60,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p060.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 61,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p061.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 62,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p062.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 63,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p063.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 64,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p064.jpg"
+        }
+      ],
+      "statuses": [
+        "NAME_LOCKED_FACE_MAPPING_UNRESOLVED"
+      ],
+      "production_class": "FACE_MAPPING",
+      "next_action": "이름-얼굴 대응을 먼저 잠금",
+      "state": "WAITING_FOR_OCR_OR_VISUAL_LOCK"
+    },
+    {
+      "candidate_id": "GTD-CAND-042",
+      "display_name": "색귀",
+      "volumes": [
+        8
+      ],
+      "unit_ids": [
+        "GTD-V08-U003"
+      ],
+      "evidence": [
+        {
+          "volume": 8,
+          "page": 102,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p102.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 103,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p103.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 108,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p108.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 109,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p109.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 110,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p110.jpg"
+        }
+      ],
+      "statuses": [
+        "NAME_LOCKED_FACE_MAPPING_UNRESOLVED"
+      ],
+      "production_class": "FACE_MAPPING",
+      "next_action": "이름-얼굴 대응을 먼저 잠금",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-042/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-042/metadata.json",
+        "result_sha256": "74FC5078068AEF76D50C725564B882C2E8E56242A711E15045DEAB612B7CA20F",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-043",
+      "display_name": "이공자",
+      "volumes": [
+        8
+      ],
+      "unit_ids": [
+        "GTD-V08-U004"
+      ],
+      "evidence": [
+        {
+          "volume": 8,
+          "page": 69,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p069.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 70,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p070.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 71,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p071.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 72,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p072.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 73,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p073.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 74,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p074.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 75,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p075.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 76,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p076.jpg"
+        }
+      ],
+      "statuses": [
+        "TITLE_LOCKED_NAME_UNRESOLVED"
+      ],
+      "production_class": "NAMED_CANDIDATE",
+      "next_action": "고유명 정본 후보 - 얼굴 대조 후 배우화",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-043/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-043/metadata.json",
+        "result_sha256": "CA046DC7C4C28710010A86F901BB81A3813410E13E99D9765018689E66FBDE36",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-044",
+      "display_name": "이공자의 어머니",
+      "volumes": [
+        8
+      ],
+      "unit_ids": [
+        "GTD-V08-U005"
+      ],
+      "evidence": [
+        {
+          "volume": 8,
+          "page": 69,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p069.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 70,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p070.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 71,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p071.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 72,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p072.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 73,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p073.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 74,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p074.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 75,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p075.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 76,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p076.jpg"
+        }
+      ],
+      "statuses": [
+        "RELATION_LOCKED_NAME_UNRESOLVED"
+      ],
+      "production_class": "NAMED_CANDIDATE",
+      "next_action": "고유명 정본 후보 - 얼굴 대조 후 배우화",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-044/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-044/metadata.json",
+        "result_sha256": "837E9DB872A917B5BC2143B0EFADC8E07D15C453DEACA4E721273D17ECA20ADD",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-045",
+      "display_name": "뿔 왕좌의 수장",
+      "volumes": [
+        8
+      ],
+      "unit_ids": [
+        "GTD-V08-U006"
+      ],
+      "evidence": [
+        {
+          "volume": 8,
+          "page": 56,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p056.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 57,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p057.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 58,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p058.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 59,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p059.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 60,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p060.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 61,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p061.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 62,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p062.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 63,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p063.jpg"
+        }
+      ],
+      "statuses": [
+        "UNRESOLVED"
+      ],
+      "production_class": "EXTRA_SHEET",
+      "next_action": "단역·엑스트라 역할 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-045/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-045/metadata.json",
+        "result_sha256": "10AA8D6E4A5B318B01AF475AFB24D1D8B2F1F76E60F704794BE0467717962284",
+        "human_approval": "PENDING"
+      }
+    },
+    {
+      "candidate_id": "GTD-CAND-046",
+      "display_name": "얼굴 흉터 자객 지휘자와 복면 자객단",
+      "volumes": [
+        8
+      ],
+      "unit_ids": [
+        "GTD-V08-U007"
+      ],
+      "evidence": [
+        {
+          "volume": 8,
+          "page": 79,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p079.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 80,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p080.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 81,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p081.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 82,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p082.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 83,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p083.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 84,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p084.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 85,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p085.jpg"
+        },
+        {
+          "volume": 8,
+          "page": 86,
+          "source_url": "/aistory/upload/comic/goltong_08/goltong_vol08_p086.jpg"
+        }
+      ],
+      "statuses": [
+        "RECURRING_UNRESOLVED_AND_ENSEMBLE"
+      ],
+      "production_class": "ENSEMBLE_SHEET",
+      "next_action": "군상 시트 제작",
+      "state": "IMAGE_IN_REVIEW",
+      "production": {
+        "state": "IMAGE_IN_REVIEW",
+        "asset_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-046/color-in-review-v1.png",
+        "metadata_url": "/aistory/assets/haseungnam-dna/candidates/GTD-CAND-046/metadata.json",
+        "result_sha256": "E684FE9DF2C27E327E4465A197E6E2F42C971C3C6BE2EDE0794043232F31FCF0",
+        "human_approval": "PENDING"
+      }
+    }
+  ]
+}

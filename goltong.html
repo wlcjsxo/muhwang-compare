@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>하승남DNA 캐릭터 배우 원장 · 골통대난동</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="./aistory/css/character-review.css?v=fleet-dna-scrubber-3">
+  <link rel="stylesheet" href="./aistory/css/haseungnam-dna-characters.css?v=goltong-progress-20261028">
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div>
+        <span class="eyebrow">HA SEUNG-NAM DNA · PERMANENT ACTOR REGISTRY</span>
+        <h1>하승남DNA 캐릭터 배우 원장</h1>
+        <p class="sub"><strong>골통대난동 25권</strong>의 원화를 기초로 하승남 특유의 얼굴·골격·과장 연기·먹선 DNA를 복원합니다. 한 작품의 배역표가 아니라, 다른 작품에도 다시 캐스팅할 수 있는 영구 배우 정본을 구축합니다.</p>
+      </div>
+      <div class="header-actions">
+        <span class="db-indicator" id="registry-status">● 준비 원장</span>
+        <a class="hub-link" href="#">5대 거장 검수본부</a>
+      </div>
+    </header>
+
+    <aside class="registry-principle" aria-label="하승남DNA 배우 원장 운영 원칙">
+      <div><strong>배우와 배역을 분리합니다.</strong><span>배우 ID·얼굴 DNA·연기 스펙은 영구 보존하고, 작품명·배역·시대·의상은 캐스팅 이력으로 붙입니다.</span></div>
+      <div><strong>말풍선이 대본입니다.</strong><span>권·쪽·칸·말풍선 좌표와 원문 이미지를 잃지 않는 OCR 대본만 인물 판정 근거로 사용합니다.</span></div>
+      <a class="hub-link accent" href="./aistory/comic_view.asp?id=77" target="_blank" rel="noopener">골통대난동 원본 뷰어</a>
+    </aside>
+
+    <section id="production-progress" class="production-dashboard" aria-labelledby="production-progress-title">
+      <header class="progress-heading">
+        <div>
+          <span class="eyebrow">ONE-GLASS PRODUCTION DASHBOARD</span>
+          <h2 id="production-progress-title">골통대난동 전권 제작 현황</h2>
+          <p>분모·산식·잔여 대상을 숨기지 않는 실측 계기판입니다. 종합률은 원자료 10% + 검수실 10% + 신원 확정 20% + 캐릭터 시각화 40% + OCR 20%의 가중 합계입니다.</p>
+        </div>
+        <div class="overall-gauge" aria-label="종합 제작률">
+          <strong id="progress-overall">계산 중</strong>
+          <span>가중 종합 제작률</span>
+        </div>
+      </header>
+      <div id="progress-bars" class="progress-bars" aria-live="polite"></div>
+      <div class="progress-facts">
+        <div><span>제작 이미지</span><strong id="progress-assets">0</strong><small>배우·변형·후보 합계</small></div>
+        <div><span>정본 배우</span><strong id="progress-actors">0</strong><small>영구 배우 원장</small></div>
+        <div><span>후보·단역</span><strong id="progress-candidates">0 / 0</strong><small>시트 제작 수</small></div>
+        <div><span>잔여 이미지</span><strong id="progress-remaining">0</strong><small>시각 잠금 대기</small></div>
+        <div><span>권별 검수실</span><strong id="progress-reviews">0 / 25</strong><small>전권 바로가기</small></div>
+        <div><span>OCR 대본</span><strong id="progress-ocr">0 / 0</strong><small>원화 쪽 기준</small></div>
+      </div>
+      <p id="progress-updated" class="progress-updated">현황 데이터를 불러오는 중입니다.</p>
+    </section>
+
+    <section class="volume-review-index" aria-labelledby="volume-review-title">
+      <div>
+        <span class="eyebrow">SOURCE &amp; REVIEW ROOMS</span>
+        <h2 id="volume-review-title">골통대난동 권별 원본·검수실</h2>
+        <p>25권·2,898쪽 원본과 25개 권별 DNA 검수실을 한 칸에서 엽니다. 원본과 제작 이미지를 확대 대조할 수 있습니다.</p>
+      </div>
+      <nav id="volume-review-nav" aria-label="골통대난동 1권부터 25권 원본과 검수실"></nav>
+    </section>
+
+    <section class="volume-review-index" aria-labelledby="ocr-pipeline-title">
+      <div>
+        <span class="eyebrow">IMAGE-TO-SCRIPT PIPELINE</span>
+        <h2 id="ocr-pipeline-title">원화 대사 추출 공정</h2>
+        <p>원본 이미지 -&gt; 칸 분할 -&gt; 말풍선·효과음 분리 -&gt; OCR -&gt; 화자 후보 -&gt; 인물 원장 대조 -&gt; 사람 검수 순으로 진행합니다.</p>
+      </div>
+      <div class="pipeline-status" id="ocr-status" aria-live="polite">OCR 공정 정보를 불러오는 중입니다.</div>
+    </section>
+
+    <nav class="fleet-nav" id="actor-family-nav" aria-label="하승남DNA 배우 계열 선택">
+      <button type="button" class="fleet-tab active" data-family="all"><span class="tab-badge">MASTER INDEX</span><span class="tab-title">전체 배우 원장</span><span class="tab-sub">작품 독립 영구 배우 · 0명</span></button>
+      <button type="button" class="fleet-tab" data-family="lead"><span class="tab-badge">LEAD</span><span class="tab-title">주연</span><span class="tab-sub">서사를 이끄는 중심 배우 · 0명</span></button>
+      <button type="button" class="fleet-tab" data-family="major_support"><span class="tab-badge">MAJOR SUPPORT</span><span class="tab-title">준대조연</span><span class="tab-sub">장기 서사를 지탱하는 핵심 배우 · 0명</span></button>
+      <button type="button" class="fleet-tab" data-family="support"><span class="tab-badge">SUPPORT</span><span class="tab-title">조연</span><span class="tab-sub">사건과 관계를 움직이는 배우 · 0명</span></button>
+      <button type="button" class="fleet-tab" data-family="minor"><span class="tab-badge">MINOR</span><span class="tab-title">단역</span><span class="tab-sub">한 장면을 살리는 개성 배우 · 0명</span></button>
+      <button type="button" class="fleet-tab" data-family="ensemble"><span class="tab-badge">ENSEMBLE</span><span class="tab-title">군상</span><span class="tab-sub">집단 행동과 세계를 만드는 배우 · 0명</span></button>
+    </nav>
+
+    <section class="metrics registry-metrics" aria-label="하승남DNA 배우 제작 현황">
+      <div class="metric"><span>배우 정본</span><strong id="metric-total">0</strong></div>
+      <div class="metric dna"><span>DNA 승인</span><strong id="metric-dna">0</strong></div>
+      <div class="metric pass"><span>컬러 정본</span><strong id="metric-color">0</strong></div>
+      <div class="metric"><span>먹선 정본</span><strong id="metric-ink">0</strong></div>
+      <div class="metric archetype"><span>연기 세트</span><strong id="metric-acting">0</strong></div>
+      <div class="metric"><span>원본 쪽</span><strong id="metric-pages">0</strong></div>
+      <div class="metric warn"><span>OCR 완료</span><strong id="metric-ocr">0</strong></div>
+      <div class="metric fail"><span>재검수</span><strong id="metric-rework">0</strong></div>
+    </section>
+
+    <section class="toolbar" aria-label="배우 원장 검색과 필터">
+      <input id="search" type="search" placeholder="배우 ID·이름·얼굴 DNA·연기 범위·캐스팅 작품 검색">
+      <select id="status-filter"><option value="">제작 상태 전체</option><option value="APPROVED">정본 승인</option><option value="IN_REVIEW">검수중</option><option value="REWORK">재검수</option></select>
+      <select id="age-filter"><option value="">연령대 전체</option><option value="TEEN">10대</option><option value="YOUNG">청년</option><option value="MIDDLE">중년</option><option value="ELDER">노년</option><option value="MULTI_AGE">다연령</option></select>
+      <select id="archetype-filter"><option value="">배우 원형 전체</option><option value="HERO">영웅</option><option value="TRICKSTER">골통·괴짜</option><option value="MENTOR">사부·원로</option><option value="STRATEGIST">책사</option><option value="RIVAL">숙적</option><option value="VILLAIN">악역</option><option value="ENSEMBLE">군상</option></select>
+      <button id="export" type="button">배우 원장 JSON</button>
+      <a class="hub-link" href="./aistory/data/goltong-dialogue-ocr-index.json" download>OCR 대본 색인 JSON</a>
+      <a class="hub-link" href="./aistory/data/goltong-ocr-jobs.json" download>전권 OCR 작업 큐 2,898건</a>
+      <a class="hub-link" href="./aistory/data/goltong-contact-sheet-index.json" download>전권 접촉시트 255장 색인</a>
+      <a class="hub-link" href="./aistory/data/goltong-source-image-manifest.json" download>원화 2,898장 해시 명부</a>
+    </section>
+
+    <p class="notice">등록 게이트: 원본 출처·해시 확인 -&gt; OCR 대사·화자 검수 -&gt; 얼굴·골격 DNA 잠금 -&gt; 먹선 정본 -&gt; 컬러 정본 -&gt; 표정·몸짓 연기 세트 -&gt; 사용자 승인. 기존 골통 유니버스 시험 배우 2명은 보존했지만 이 승인 원장에는 포함하지 않습니다.</p>
+
+    <section id="development-mount" class="development-mount" aria-label="정본 등록 전 연구 자료"></section>
+
+    <section class="asset-register" aria-labelledby="asset-register-title">
+      <header class="asset-register-heading">
+        <div><span class="eyebrow">ALL PRODUCED VISUAL ASSETS</span><h2 id="asset-register-title">전체 제작 이미지 총람</h2><p>배우 정본·외형 변형·연기 시트·후보·단역 이미지를 빠짐없이 모았습니다. 이미지를 누르면 원본 크기로 열립니다.</p></div>
+        <div class="asset-filters" role="group" aria-label="제작 이미지 종류 필터">
+          <button type="button" class="active" data-asset-filter="all">전체</button>
+          <button type="button" data-asset-filter="actor">배우·변형</button>
+          <button type="button" data-asset-filter="candidate">후보·단역</button>
+        </div>
+      </header>
+      <p id="asset-register-status" class="notice" role="status">제작 이미지 목록을 불러오는 중입니다.</p>
+      <div id="asset-gallery" class="asset-gallery"></div>
+    </section>
+
+    <div class="registry-section-heading"><span class="eyebrow">PERMANENT ACTOR REGISTRY</span><h2>하승남DNA 영구 배우 원장</h2><p>아래 카드는 작품을 넘어 재캐스팅할 정본 배우입니다.</p></div>
+    <p id="registry-message" class="notice" role="status" aria-live="polite">하승남DNA 배우 원장을 불러오는 중입니다.</p>
+    <section id="grid" class="grid actor-grid" aria-label="하승남DNA 배우 카드"><p class="empty">배우 원장을 불러오는 중입니다.</p></section>
+
+    <nav class="pager" aria-label="배우 원장 페이지">
+      <button id="prev-page" class="pager-move" type="button">‹ 이전</button>
+      <div id="page-buttons" class="page-buttons" aria-label="페이지 바로가기"></div>
+      <button id="next-page" class="pager-move" type="button">다음 ›</button>
+      <strong id="page-info">1 / 1</strong>
+    </nav>
+  </main>
+
+  <dialog id="viewer">
+    <div class="modal-head"><strong id="modal-title">하승남DNA 배우 상세</strong><button id="close-modal" type="button">닫기</button></div>
+    <div class="modal-grid"><img id="modal-color" alt="배우 컬러 이미지"><img id="modal-ink" alt="배우 원작 먹선 근거"></div>
+    <section id="modal-dna" class="dna-detail" aria-label="배우 DNA 및 캐스팅 이력"></section>
+  </dialog>
+
+  <script src="./aistory/js/goltong-casting-pavilion.js?v=goltong-progress-20261028"></script>
+</body>
+</html>
