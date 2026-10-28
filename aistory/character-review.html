@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>사마달 캐릭터 시트 · Horizon</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/aistory/css/character-review.css?v=prompt-trace-20261026-1">
+  <style>
+    .review, .voice-tag, #btn-autoplay-continuous, #btn-autoplay-next, .toolbar label, #toolbar-voice-catalog { display: none !important; }
+    .fleet-nav { grid-template-columns: minmax(0, 1fr) !important; }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <header class="masthead">
+      <div>
+        <span class="eyebrow">Horizon · Sama Dal Character Archive</span>
+        <h1>사마달 563 캐릭터 시트</h1>
+        <p class="sub">사마달 무협 캐릭터 563인의 컬러·먹선 시트와 캐릭터 DNA를 공개 열람합니다. 원본 제작 자산을 웹 열람용으로 경량화한 읽기 전용 아카이브입니다.</p>
+      </div>
+      <div style="display: flex; gap: 8px; align-items: center;">
+        <span class="db-indicator" id="db-status-badge">공개 열람 모드</span>
+        <a class="hub-link" href="../">제안서로 돌아가기</a>
+      </div>
+    </header>
+    <nav class="fleet-nav" aria-label="사마달 캐릭터 시트">
+      <button type="button" class="fleet-tab active" data-seat="nova">
+        <span class="tab-badge">Sama Dal Archive</span>
+        <span class="tab-title">사마달 (Sama Dal)</span>
+        <span class="tab-sub">컬러·먹선 563 캐릭터 공개 열람본</span>
+      </button>
+    </nav>
+
+    <!-- 검수 현황 메트릭 -->
+    <section class="metrics" aria-label="검수 현황">
+      <div class="metric"><span>좌석 정본</span><strong id="total-count">-</strong></div>
+      <div class="metric"><span>현재 표시</span><strong id="visible-count">-</strong></div>
+      <div class="metric pass"><span>자동 PASS</span><strong id="auto-pass">-</strong></div>
+      <div class="metric warn"><span>자동 WARN</span><strong id="auto-warn">-</strong></div>
+      <div class="metric fail"><span>자동 FAIL</span><strong id="auto-fail">-</strong></div>
+      <div class="metric"><span>사람 검수</span><strong id="reviewed-count">0</strong></div>
+      <div class="metric dna"><span>DNA 정본</span><strong id="dna-count">0</strong></div>
+      <div class="metric archetype"><span>원형 매핑</span><strong id="archetype-count">0</strong></div>
+      <div class="metric pass"><span>사람 합격</span><strong id="human-pass">0</strong></div>
+      <div class="metric warn"><span>사람 보류</span><strong id="human-hold">0</strong></div>
+      <div class="metric fail"><span>교정 필요</span><strong id="human-fail">0</strong></div>
+    </section>
+
+    <!-- 검색 & 필터 툴바 -->
+    <section class="toolbar">
+      <input id="search" type="search" placeholder="ID·이름·배역·체형·성우 검색">
+      <select id="auto-filter">
+        <option value="">자동판정 전체</option>
+        <option>PASS</option>
+        <option>WARN</option>
+        <option>FAIL</option>
+      </select>
+      <select id="review-filter">
+        <option value="">사람검수 전체</option>
+        <option value="UNREVIEWED">미검수</option>
+        <option value="PASS">합격</option>
+        <option value="HOLD">보류</option>
+        <option value="FAIL">교정 필요</option>
+      </select>
+      <select id="archetype-filter" aria-label="캐릭터 원형 필터">
+        <option value="">10대 원형 전체</option>
+        <option value="MAIN_HERO">주인공</option>
+        <option value="SIDEKICK">조력자/친구</option>
+        <option value="MAIDEN">순수/동기부여</option>
+        <option value="WISE_OLD_MAN">멘토/원로</option>
+        <option value="VILLAIN">숙적/최종보스</option>
+        <option value="HENCHMAN">중간보스/오른팔</option>
+        <option value="SHAPE_SHIFTER">변절자/양면적 인물</option>
+        <option value="TRICKSTER">감초/트릭스터</option>
+        <option value="ETERNAL_CHILD">영원한 아이</option>
+        <option value="MOTHER_FIGURE">보호자/모성</option>
+      </select>
+      <button id="export" type="button">검수 JSON 내보내기</button>
+      <button id="btn-autoplay-continuous" type="button" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, #10b981, #059669); color: #ffffff; border: 1px solid rgba(255,255,255,0.25); border-radius: 9px; padding: 10px 14px; font-weight: 800; font-size: 13px; white-space: nowrap; cursor: pointer; box-shadow: 0 4px 14px rgba(16, 185, 129, 0.4);">
+        📻 50명 연속 재생 (자동 넘김)
+      </button>
+      <button id="btn-autoplay-next" type="button" style="display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: #ffffff; border: 1px solid rgba(255,255,255,0.25); border-radius: 9px; padding: 10px 14px; font-weight: 800; font-size: 13px; white-space: nowrap; cursor: pointer; box-shadow: 0 4px 14px rgba(59, 130, 246, 0.4);" title="현재 재생 중인 음성을 건너뛰고 다음 캐릭터 음성으로 즉시 이동합니다">
+        ⏭ 다음 듣기
+      </button>
+      <label style="display:inline-flex; align-items:center; gap:6px; background:rgba(34,197,94,0.12); border:1px solid rgba(34,197,94,0.35); padding:8px 12px; border-radius:9px; cursor:pointer; font-size:12px; font-weight:700; color:#4ade80; white-space:nowrap; user-select:none;">
+        <input type="checkbox" id="clean-voice-filter" style="width:15px; height:15px; accent-color:#22c55e; cursor:pointer;">
+        ✨ 클린 보컬만 (<span id="clean-count-label">280</span>)
+      </label>
+      <a id="toolbar-voice-catalog" href="/aistory/voice-studio-catalog.html" target="_blank" style="text-decoration: none; display: inline-flex; align-items: center; justify-content: center; gap: 6px; background: linear-gradient(135deg, #6366f1, #8b5cf6); color: #ffffff; border: 1px solid rgba(255,255,255,0.25); border-radius: 9px; padding: 10px 14px; font-weight: 800; font-size: 13px; white-space: nowrap; cursor: pointer; box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);">🎙️ 4,601 음성 카탈로그 &amp; 매칭 열기</a>
+    </section>
+
+    <p class="notice" id="seat-notice">
+      공개 열람본: 사마달 캐릭터의 컬러·먹선 시트와 DNA 정보를 검색하고 비교할 수 있습니다. 원본 제작 데이터는 변경되지 않습니다.
+    </p>
+
+    <p class="notice" id="dna-status" role="status" aria-live="polite" data-state="loading">DNA 파일을 불러오는 중입니다.</p>
+
+    <!-- 캐릭터 카드 그리드 -->
+    <section id="grid" class="grid">
+      <p class="empty">검수 데이터를 불러오는 중입니다.</p>
+    </section>
+
+    <!-- 페이징 컨트롤 -->
+    <nav class="pager" aria-label="캐릭터 페이지">
+      <button id="prev-page" class="pager-move" type="button" aria-label="이전 페이지">‹ 이전</button>
+      <div id="page-buttons" class="page-buttons" aria-label="페이지 바로가기"></div>
+      <button id="next-page" class="pager-move" type="button" aria-label="다음 페이지">다음 ›</button>
+      <strong id="page-info">1 / 1</strong>
+    </nav>
+  </main>
+
+  <!-- 상세 뷰어 모달 -->
+  <dialog id="viewer">
+    <div class="modal-head">
+      <strong id="modal-title">캐릭터 상세</strong>
+      <button id="close-modal" type="button">닫기</button>
+    </div>
+    <div class="modal-grid">
+      <img id="modal-color" alt="컬러 시트">
+      <img id="modal-ink" alt="먹선 시트">
+    </div>
+    <section id="modal-dna" class="dna-detail" aria-label="캐릭터 DNA 상세">
+      <p class="empty">이 캐릭터의 DNA 카드는 아직 작성되지 않았습니다.</p>
+    </section>
+    <section id="modal-prompts" class="dna-detail prompt-provenance" aria-label="AI 이미지 프롬프트 메타데이터">
+      <p class="empty">이 캐릭터의 프롬프트 계보를 불러오는 중입니다.</p>
+    </section>
+  </dialog>
+
+  <!-- 통합 프론트엔드 엔진 스크립트 -->
+  <script src="/aistory/js/character-review.js?v=prompt-provenance-20261026-3"></script>
+</body>
+</html>
+
