@@ -611,7 +611,9 @@
           if (doc && !doc.getElementById('portal-frame-style')) {
             const style = doc.createElement('style');
             style.id = 'portal-frame-style';
-            style.textContent = 'html{scrollbar-color:#cbd5e1 #f8fafc} body{background:#fff!important}';
+            style.textContent = currentView === 'hwangseong'
+              ? 'html{scrollbar-color:#3a5260 #071016}'
+              : 'html{scrollbar-color:#cbd5e1 #f8fafc} body{background:#fff!important}';
             doc.head.appendChild(style);
           }
         } catch (error) { /* same-origin enhancement only */ }
