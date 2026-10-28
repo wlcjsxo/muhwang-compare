@@ -331,6 +331,20 @@
     .character-card strong { display: block; font-size: 12px; }
     .character-card span { display: block; margin-top: 5px; color: var(--muted); font-size: 10px; line-height: 1.45; }
     .hidden { display: none !important; }
+    @media (min-width: 2200px) {
+      :root { --header-height: 150px; }
+      .header-inner { width: calc(100% - 64px); max-width: none; gap: 32px; }
+      .brand { min-width: 400px; gap: 18px; }
+      .brand-mark { width: 60px; height: 60px; border-radius: 18px; font-size: 24px; }
+      .brand-copy strong { font-size: 24px; }
+      .brand-copy span { margin-top: 6px; font-size: 18px; }
+      .global-nav { gap: 12px; }
+      .nav-button { min-height: 112px; border-radius: 20px; padding: 16px 24px; }
+      .nav-button.home-button { width: 112px; }
+      .nav-button.home-button svg { width: 38px; height: 38px; }
+      .nav-button b { font-size: 36px; }
+      .nav-button small { margin-top: 8px; font-size: 27px; }
+    }
     @media (max-width: 1180px) {
       :root { --header-height: 112px; }
       .header-inner { width: 100%; padding: 10px 18px 8px; flex-direction: column; align-items: stretch; gap: 8px; }
@@ -387,9 +401,9 @@
         <button class="nav-button" type="button" data-view="hwangseong"><b>혈견휴혈련환</b><small>황성</small></button>
         <button class="nav-button" type="button" data-view="yaseolrok"><b>도지산검지림</b><small>야설록</small></button>
         <button class="nav-button" type="button" data-view="goltong"><b>골통 대난동</b><small>하승남</small></button>
-        <a class="nav-button" href="http://192.168.123.104:18406/aistory/character-review.html" target="_blank" rel="noopener noreferrer"><b>사마달</b><small>캐릭터 시트 · 내부망</small></a>
-        <button class="nav-button" type="button" data-view="v2"><b>무황기협전</b><small>캐릭터 시트</small></button>
-        <button class="nav-button" type="button" data-view="v1"><b>무황기협전</b><small>특별관</small></button>
+        <a class="nav-button" href="http://192.168.123.104:18406/aistory/character-review.html" target="_blank" rel="noopener noreferrer"><b>캐릭터 시트</b><small>사마달 · 내부망</small></a>
+        <button class="nav-button" type="button" data-view="v2"><b>캐릭터 시트</b><small>무황기협전</small></button>
+        <button class="nav-button" type="button" data-view="v1"><b>특별관</b><small>무황기협전</small></button>
       </nav>
     </div>
   </header>
