@@ -1,7 +1,7 @@
 {
-  "schema": "HaSeungNam-Public-Character-Archive-v1",
-  "version": "public-20261028",
-  "title": "하승남 · 골통대난동 캐릭터 아카이브",
+  "schema": "HaSeungNam-Public-Character-Gallery-v2",
+  "version": "public-gallery-20261028",
+  "title": "하승남 · 골통대난동 캐릭터 갤러리",
   "actors": [
     {
       "actor_id": "HSN-DNA-0001",
@@ -13,25 +13,15 @@
         "녹림천존의 첫째 아들"
       ],
       "family": "lead",
-      "rank_label": "주연 후보",
-      "actor_logline": "반쯤 감긴 눈과 느슨한 웃음으로 상대를 방심시키고, 장난과 위압을 한 호흡에 바꾸는 녹림의 대공자.",
-      "identity_hook": "반수면 눈매 · 굵고 적은 앞머리 가시 · 긴 귀밑머리 · 풀줄기 · 표범무늬 어깨천 · 기울어진 자세",
-      "performance_range": "무심한 반수면 표정, 풀줄기를 문 옆웃음, 눈을 감은 환한 장난기, 의심할 때만 날카롭게 좁아지는 시선, 싸움 뒤에도 흐트러지지 않는 느슨한 몸짓.",
-      "face_dna": "긴 타원형 얼굴과 좁은 턱, 수평에 가까운 반쯤 감긴 눈, 짧고 굵은 눈썹, 작고 각진 코, 한쪽으로 비끼는 입. 앞머리는 많은 잔가시가 아니라 굵고 불규칙한 몇 갈래이며 양 볼 옆으로 긴 머리칼이 떨어진다.",
-      "age_band": "YOUNG",
-      "archetype": "TRICKSTER",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0001/color-in-review-v2.webp",
-      "ink_sheet_url": null,
+      "rank_label": "주연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0001.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0002.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "유세옥",
-          "role_grade": "주연 후보",
+          "role_grade": "주연",
           "volumes": [
             1,
             2
@@ -48,25 +38,15 @@
         "유세옥의 아버지"
       ],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "거대한 수염 덩어리와 둥근 체격 속에 가부장의 위엄과 혼담 앞의 난처함을 함께 품은 녹림 수장.",
-      "identity_hook": "넓고 둥근 얼굴 · 낮고 굵은 눈썹 · 작은 눈 · 넓은 코 · 거대한 콧수염과 턱수염 · 묶은 머리",
-      "performance_range": "엄격한 정색, 딸에게 혼사를 권하는 난처함, 놀라 화내는 표정.",
-      "face_dna": "육중한 중년 남성. 입을 덮는 굵은 콧수염과 볼·턱을 감싸는 풍성한 검은 수염이 얼굴 실루엣을 결정한다.",
-      "age_band": "MIDDLE_AGED",
-      "archetype": "PATRIARCH",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0002/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0003.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0004.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "녹림천존",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
             1,
             2
@@ -83,25 +63,15 @@
         "장강수로연맹주의 딸"
       ],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "위험한 미소와 고리 모양 앞머리로 욕망과 계산을 숨기지 않는 수로연맹의 영애.",
-      "identity_hook": "위로 솟은 눈꼬리 · 길고 뾰족한 코 · 짙은 입술 · 높은 장식 상투 · 양옆 고리 앞머리",
-      "performance_range": "혼담 앞의 냉담함, 유세옥을 떠올리는 의미심장한 미소, 날카로운 결심.",
-      "face_dna": "성숙한 여성. 길고 좁은 눈, 가늘고 높은 눈썹, 뾰족한 코, 위험하고 능청스러운 미소.",
-      "age_band": "ADULT",
-      "archetype": "FEMME_STRATEGIST",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0003/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0005.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0006.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "취옥",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
             2
           ]
@@ -116,27 +86,26 @@
         "장강수로연맹주"
       ],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "황소뿔 왕좌와 갈라진 턱수염으로 수로의 폭압을 한눈에 각인시키는 거대 맹주.",
-      "identity_hook": "넓은 사각 얼굴 · 일자 눈썹 · 넓고 각진 코 · 크게 뻗는 콧수염 · 갈라진 뾰족 턱수염 · 황소뿔 왕좌",
-      "performance_range": "냉혹한 보고 청취, 뜻밖의 소식에 치켜뜨는 눈, 계략을 세우는 얇은 미소.",
-      "face_dna": "거대한 중년 수장. 무거운 눈, 굵은 광대, 넓은 코, 양옆으로 뻗는 콧수염과 길게 갈라지는 턱수염.",
-      "age_band": "MIDDLE_AGED",
-      "archetype": "WARLORD",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0004/color-in-review-v1.webp",
-      "ink_sheet_url": null,
-      "appearance_variants": [],
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0007.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0008.webp",
+      "appearance_variants": [
+        {
+          "variant_id": "public-HSN-DNA-0004-1",
+          "label": "외형 1",
+          "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0009.webp",
+          "ink_sheet_url": null,
+          "volume_scope": []
+        }
+      ],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "취공백",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
-            2
+            2,
+            8
           ]
         }
       ]
@@ -148,21 +117,11 @@
       "aliases": [],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "갈라진 이마 문양과 뾰족코가 비웃음에서 분노까지 한 호흡으로 이어지는 마른 책략가.",
-      "identity_hook": "이마의 번개·강줄기 흉터 문양 · 길고 각진 얼굴 · 꺼진 뺨 · 치켜뜬 좁은 눈 · 뾰족코 · 굵은 옆머리 두 갈래",
-      "performance_range": "얕보는 비웃음, 여국주에게 접근하는 능글맞음, 이를 드러내는 분노.",
-      "face_dna": "마른 성인 남성. 긴 얼굴과 꺼진 뺨, 치켜뜬 좁은 눈, 긴 뾰족코, 짧고 성긴 턱수염.",
-      "age_band": "ADULT",
-      "archetype": "SCHEMING_VILLAIN",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0005/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0010.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0011.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "구양홍",
           "role_grade": "조연",
@@ -180,25 +139,15 @@
         "소연 누나"
       ],
       "family": "minor",
-      "rank_label": "주요조연",
-      "actor_logline": "개를 안은 다정함과 사람을 시험하는 위험한 미소가 같은 얼굴에서 교차하는 성숙한 여인.",
-      "identity_hook": "높은 쌍고리 상투 · 관자놀이의 긴 앞머리 · 길게 치켜오른 눈 · 도톰한 입술 · 둥근 귀걸이 · 검은 넓은 깃",
-      "performance_range": "개를 안고 짓는 매혹적 미소, 냉담한 응시, 잠든 얼굴, 유세옥을 알아보고 놀라는 표정.",
-      "face_dna": "길고 치켜오른 눈과 두꺼운 위 속눈썹, 긴 곧은 콧등, 작고 날카로운 코끝, 높은 광대와 도톰한 어두운 입술.",
-      "age_band": "ADULT",
-      "archetype": "DANGEROUS_BEAUTY",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0006/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "캐릭터",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0012.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0013.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "소연",
-          "role_grade": "주요조연",
+          "role_grade": "캐릭터",
           "volumes": [
             3
           ]
@@ -215,21 +164,11 @@
       ],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "큰 매부리코와 비뚤어진 웃음으로 거짓말과 공포를 오가는 거리의 정보상.",
-      "identity_hook": "낡은 두건 · 긴 헝클어진 머리 · 큰 매부리코 · 비뚤어진 앞니 웃음 · 깊은 주름 · 거친 수염",
-      "performance_range": "탐욕스러운 웃음, 능청스러운 거짓말, 식은땀 나는 공포, 얻어맞고 쓰러진 비굴함.",
-      "face_dna": "길고 마른 얼굴, 깊게 파인 눈과 늘어진 눈꺼풀, 튀어나온 광대, 큰 매부리코, 비뚤어진 입과 성긴 수염.",
-      "age_band": "MIDDLE_AGED",
-      "archetype": "STREET_TRICKSTER",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0007/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0014.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0015.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "사마지인 사칭 노인",
           "role_grade": "조연",
@@ -245,25 +184,15 @@
       "name_hanja": "",
       "aliases": [],
       "family": "minor",
-      "rank_label": "주요조연",
-      "actor_logline": "꽃무늬 속깃과 한쪽 입꼬리의 오만한 미소로 녹림 후계자의 권력을 과시하는 야심가.",
-      "identity_hook": "길고 각진 얼굴 · 위로 꺾인 굵은 눈썹 · 깊고 가는 눈 · 긴 양쪽 앞머리 · 작은 높은 상투 · 꽃무늬 검은 속깃",
-      "performance_range": "찻잔을 든 비웃음, 자기 선언의 오만함, 유세옥을 얕보는 냉소, 맞고 당황하는 분노, 공격 자세.",
-      "face_dna": "세로로 긴 각진 얼굴, 넓은 이마, 굵고 꺾인 눈썹, 깊고 가늘게 찢어진 눈, 긴 콧등, 한쪽으로 올라간 입꼬리.",
-      "age_band": "ADULT",
-      "archetype": "ARROGANT_HEIR",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0008/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "캐릭터",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0016.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0017.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "구양평",
-          "role_grade": "주요조연",
+          "role_grade": "캐릭터",
           "volumes": [
             3
           ]
@@ -278,25 +207,15 @@
         "비룡표국 국주"
       ],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "호방한 미소와 칼날 같은 판단력으로 비룡표국을 이끄는 젊은 여성 국주.",
-      "identity_hook": "매끈한 올림머리 · 긴 치켜뜬 눈 · 긴 곧은 코 · 둥근 귀고리 · 넓은 검은 V자 깃 · 자신감 있는 넓은 미소",
-      "performance_range": "국주다운 환대의 미소, 낯선 이를 재는 경계, 호탕한 웃음, 부하에게 지시하는 단호함, 계산이 끝난 차분한 시선.",
-      "face_dna": "성숙한 젊은 여성의 긴 타원형 얼굴, 길고 가는 치켜뜬 눈과 짙은 속눈썹, 긴 곧은 코, 넓고 자신감 있는 입, 높은 광대와 당당한 턱선.",
-      "age_band": "ADULT",
-      "archetype": "GUILD_MASTER",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0009/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0018.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0019.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "사마지인",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
             4
           ]
@@ -312,21 +231,11 @@
       ],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "감정을 드러내지 않는 작은 눈과 한 줄 턱수염로 비룡표국의 살림과 사람을 재는 노집사.",
-      "identity_hook": "짧은 회백 머리 · 무거운 처진 눈꺼풀 · 낮고 넓은 코 · 한 줄로 긴 뾰족 턱수염 · 굽은 작은 체구 · 지팡이",
-      "performance_range": "냉정한 관찰, 국주에게 보고, 손님 안내, 수상한 낌새를 읽는 가는 눈, 소리 없는 곤혹.",
-      "face_dna": "넓고 납작한 이마, 무겁게 처진 눈꺼풀과 작은 눈, 낮고 넓은 코, 깊은 입가, 입 아래에서 한 줄로 떨어지는 긴 회색 턱수염.",
-      "age_band": "ELDER",
-      "archetype": "STEWARD",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0010/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0020.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0021.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "장집사",
           "role_grade": "조연",
@@ -343,21 +252,11 @@
       "aliases": [],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "여러 겹 둥근 칼라와 땀 많은 둥근 얼굴로 허세와 공포를 빠르게 오가는 표국의 희극적 부하.",
-      "identity_hook": "민머리 정수리의 짧은 점박이 머리 · 작은 처진 눈 · 둥글고 넓은 코 · 두툼한 입술 · 넓은 다층 둥근 칼라 · 짧고 통통한 몸",
-      "performance_range": "뻣뻣한 허세, 식은땀, 울상 보고, 얻어맞아 찌그러진 볼, 겁먹은 눈, 동료 뒤에 숨는 자세.",
-      "face_dna": "짧고 통통한 민머리 남자, 정수리와 뒤통수의 짧은 점박이 머리, 좁은 이마, 작은 처진 눈, 둥글고 넓은 코, 두툼한 입술과 짧은 목.",
-      "age_band": "ADULT",
-      "archetype": "COMIC_HENCHMAN",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0011/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0022.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0023.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "정자수",
           "role_grade": "조연",
@@ -375,25 +274,15 @@
         "일수달명"
       ],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "졸린 반수면 눈과 한쪽 앞머리 뒤에서 사람을 재다가, 비웃음과 폭소로 본색을 흘리는 신입 표사.",
-      "identity_hook": "밝은 두건과 긴 꼬리 · 오른쪽 눈을 덮는 검은 앞머리 · 반수면 눈 · 왼쪽 귀 큰 고리 · 목 앞 세 개 잠금장치 · 느슨한 긴 장포",
-      "performance_range": "무심한 정면, 사람을 재는 의심, 사악한 옆미소, 놀람, 큰 폭소, 느슨한 전신.",
-      "face_dna": "길고 갸름한 젊은 남성 얼굴, 반쯤 감긴 길고 좁은 눈, 얇은 눈썹, 길고 곧은 콧등, 작은 비대칭 입, 오른쪽 눈을 가로지르는 긴 검은 앞머리.",
-      "age_band": "YOUNG",
-      "archetype": "SLEEPY_SCHEMER",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0012/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0024.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0025.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "전백경",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
             5
           ]
@@ -409,21 +298,11 @@
       ],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "산처럼 큰 몸과 점 같은 눈으로 묵묵히 짐을 지다가 손가락을 물리면 아이처럼 비명을 지르는 순박한 거구.",
-      "identity_hook": "가운데만 남은 검은 반달형 정수리 머리 · 작은 점눈 · 넓고 납작한 코 · 큰 입 · 넓은 다층 원형 칼라 · 거대한 둥근 배와 팔",
-      "performance_range": "무표정, 옆얼굴, 화냄, 손을 물려 비명, 부상자를 업음, 거대한 전신.",
-      "face_dna": "아주 크고 넓은 사각 얼굴, 낮고 짧은 이마, 가운데만 남은 검은 반달형 정수리 머리, 굵고 짧은 눈썹, 작은 점 같은 눈, 넓고 납작한 코, 매우 큰 입과 두꺼운 입술.",
-      "age_band": "ADULT",
-      "archetype": "GENTLE_GIANT",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0013/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0026.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0027.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "형돈",
           "role_grade": "조연",
@@ -441,25 +320,15 @@
       "name_hanja": "",
       "aliases": [],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "얼음 같은 긴 얼굴과 검은 망토로 감정을 감춘 채 대공자의 곁을 지키는 냉정한 참모.",
-      "identity_hook": "매우 길고 좁은 얼굴 · 깊고 가는 눈 · 긴 곧은 코 · 밝은 긴 앞머리 두 갈래 · 뒤로 묶은 장발 · 가는 관 장식 · 검은 한쪽 어깨 망토",
-      "performance_range": "냉정한 정면, 날카로운 옆얼굴, 요사를 바라보는 무표정, 보고, 검 경계, 망토 전신.",
-      "face_dna": "매우 길고 좁은 성인 남성 얼굴, 높은 광대, 깊게 파인 긴 눈, 곧고 긴 코, 얇고 닫힌 입, 넓고 높은 이마.",
-      "age_band": "ADULT",
-      "archetype": "COLD_LIEUTENANT",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0014/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0028.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0029.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "한당",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
             5,
             6,
@@ -476,25 +345,15 @@
         "꽃장식 여표사"
       ],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "꽃장식과 매혹적인 눈매 뒤에 무공과 지휘력을 숨긴 대공자의 충직한 여표사.",
-      "identity_hook": "짧고 촘촘한 검은 곱슬머리 · 이마 머리띠의 큰 꽃 · 치켜뜬 큰 눈 · 날카로운 코 · 짙은 입술 · 둥근 귀고리 · 오른쪽 가슴의 꽃",
-      "performance_range": "매혹적 미소, 경계, 보고, 걱정, 전투 지시, 망토 전신.",
-      "face_dna": "성숙한 여성의 길고 갸름한 얼굴, 위로 긴 큰 눈과 짙은 속눈썹, 가늘고 높은 눈썹, 길고 날카로운 코, 짙고 도톰한 입술.",
-      "age_band": "ADULT",
-      "archetype": "CHARMING_FIGHTER",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0015/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0030.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0031.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "요사",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
             5,
             6,
@@ -513,21 +372,19 @@
       ],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "치켜뜬 눈과 짙은 입술로 혼담의 판을 제 손으로 뒤집는 저돌적이고 능청스러운 신부 후보.",
-      "identity_hook": "짧고 반듯한 앞머리 · 뒤로 묶은 검은 머리 · 치켜뜬 긴 눈 · 길고 날렵한 코 · 짙은 입술 · 검은 민소매 무복 · 넓은 허리띠",
-      "performance_range": "정중한 인사, 능청스러운 설득, 세옥을 향한 집념, 아버지에게 윙크, 손가락을 든 단호한 선언.",
-      "face_dna": "갸름한 성인 여성 얼굴, 가는 눈썹, 길게 치켜올라간 눈꼬리, 길고 날렵한 코, 짙고 도톰한 입술과 자신만만한 미소.",
-      "age_band": "ADULT",
-      "archetype": "WILY_BRIDE",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0016/color-in-review-v1.webp",
-      "ink_sheet_url": null,
-      "appearance_variants": [],
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0032.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0033.webp",
+      "appearance_variants": [
+        {
+          "variant_id": "public-HSN-DNA-0016-1",
+          "label": "외형 1",
+          "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0034.webp",
+          "ink_sheet_url": null,
+          "volume_scope": []
+        }
+      ],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "취록",
           "role_grade": "조연",
@@ -549,21 +406,11 @@
       ],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "산처럼 큰 몸과 웃는 점눈으로 취록을 지키며 마차를 모는 씩씩하고 유쾌한 호위.",
-      "identity_hook": "거대한 둥근 체격 · 작은 상투 · 가는 초승달 눈썹 · 작은 눈 · 넓고 낮은 코 · 양 볼 주근깨 · 큰 고리 귀걸이 · 원형 장식 무복",
-      "performance_range": "명랑한 미소, 공손한 대답, 우산을 든 호위, 마차를 모는 집중, 급정거의 놀람.",
-      "face_dna": "매우 넓고 둥근 성인 여성 얼굴, 짧은 이마와 작은 상투, 가는 눈썹과 작은 웃는 눈, 넓고 낮은 코, 주근깨, 큰 고리 귀걸이.",
-      "age_band": "ADULT",
-      "archetype": "JOLLY_GUARDIAN",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0017/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0035.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0036.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "철란",
           "role_grade": "조연",
@@ -582,21 +429,11 @@
       ],
       "family": "minor",
       "rank_label": "단역",
-      "actor_logline": "번개 흉터와 매부리코 아래 감정을 봉인한 채 실패조차 보고문처럼 말하는 분류의 살수.",
-      "identity_hook": "천 두건 · 이마에서 눈가로 내려오는 번개형 흉터 · 좁고 차가운 눈 · 큰 매부리코 · 각진 콧수염과 턱수염 · 긴 검은 머리 · 넓은 망토",
-      "performance_range": "무표정 보고, 전서 확인, 실패를 인정하는 냉정함, 살기 어린 정면, 측면 경계.",
-      "face_dna": "길고 각진 중년 남성 얼굴, 깊고 좁은 눈, 큰 매부리코, 각진 콧수염과 턱수염, 왼쪽 이마에서 눈가로 내려오는 깊은 흉터.",
-      "age_band": "MIDDLE_AGED",
-      "archetype": "SCARRED_ASSASSIN",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0018/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0037.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0038.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "육살",
           "role_grade": "단역",
@@ -615,31 +452,19 @@
       ],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "검은 민소매 무복과 대담한 미소로 세옥에게 곧장 마음을 고백하는 당찬 여무인.",
-      "identity_hook": "짧은 일자 앞머리 · 양 볼을 타고 긴 옆머리 · 뒤로 묶은 검은 장발 · 큰 아몬드형 눈 · 작은 짙은 입술 · 검은 민소매 무복 · 넓은 허리띠",
-      "performance_range": "장난스러운 미소, 고백, 당황, 걱정, 단호한 만류, 옆모습 침묵.",
-      "face_dna": "젊은 여성의 갸름한 얼굴, 크고 생기 있는 눈, 곧고 가는 코, 작고 짙은 입술, 자신감 있는 미소.",
-      "age_band": "YOUNG_ADULT",
-      "archetype": "BOLD_SWEETHEART",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0019/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0039.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0040.webp",
       "appearance_variants": [
         {
           "variant_id": "public-HSN-DNA-0019-1",
-          "label": "21권 비대칭 단발·오프숄더 버전",
-          "age_band": "",
-          "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0019/color-in-review-v2-volume21.webp",
+          "label": "외형 1",
+          "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0041.webp",
           "ink_sheet_url": null,
-          "face_dna": "짧은 일자 앞머리 · 양 볼을 타고 긴 옆머리 · 뒤로 묶은 검은 장발 · 큰 아몬드형 눈 · 작은 짙은 입술 · 검은 민소매 무복 · 넓은 허리띠",
           "volume_scope": []
         }
       ],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "세현",
           "role_grade": "조연",
@@ -660,21 +485,11 @@
       ],
       "family": "minor",
       "rank_label": "단역",
-      "actor_logline": "툴툴대면서도 끝내 명령을 따르는 두건과 고리 귀걸이의 표정 부자 심부름꾼.",
-      "identity_hook": "뒤로 묶은 밝은 천 두건 · 삐친 검은 옆머리 · 고리 귀걸이 · 가는 눈 · 긴 코 · 창백한 여행복 · 팔 붕대",
-      "performance_range": "무표정, 짜증, 당황, 수줍음, 겁먹음, 억지 복종.",
-      "face_dna": "마른 젊은 남성 얼굴, 가늘고 피곤한 눈, 긴 콧날, 살짝 내민 입, 두건 아래 삐친 검은 머리.",
-      "age_band": "YOUNG_ADULT",
-      "archetype": "RELUCTANT_ATTENDANT",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0020/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0042.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0043.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "몽신",
           "role_grade": "단역",
@@ -693,21 +508,11 @@
       ],
       "family": "minor",
       "rank_label": "단역",
-      "actor_logline": "거대한 갈고리코와 턱수염으로 허세를 부리다가 순식간에 겁먹는 음식 이름의 거구 식객.",
-      "identity_hook": "거대한 갈고리코 · 두꺼운 턱과 수염 그늘 · 짧은 가시머리 · 천 머리띠 · 작은 눈 · 굵은 목 · 거대한 어깨",
-      "performance_range": "허세, 분노, 놀람, 의심, 겁먹음, 머쓱함.",
-      "face_dna": "넓고 각진 중년 남성 얼굴, 매우 큰 갈고리코, 무거운 턱, 짙은 수염 그늘, 작고 의심 많은 눈.",
-      "age_band": "MIDDLE_AGED",
-      "archetype": "FOOD_NAMED_BRUISER",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0021/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0044.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0045.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "우육탕",
           "role_grade": "단역",
@@ -726,21 +531,11 @@
       ],
       "family": "minor",
       "rank_label": "단역",
-      "actor_logline": "커다란 입술과 먹그늘 눈으로 으스대지만 독 이야기만 나오면 얼어붙는 코믹 식객.",
-      "identity_hook": "넓은 이마띠 · 가시 같은 검은 머리 · 눈 주위 짙은 먹그늘 · 매우 큰 돌출 입술 · 넓은 광대 · 꽃무늬 민소매 속옷 · 팔 붕대",
-      "performance_range": "우쭐함, 공포, 의심, 민망함, 입술을 만지는 당황, 억지 진정.",
-      "face_dna": "넓은 광대의 성인 남성 얼굴, 작고 깊은 눈, 눈 주위의 짙은 그늘, 비정상적으로 크고 돌출된 입술, 각진 턱.",
-      "age_band": "ADULT",
-      "archetype": "PUFFY_LIPPED_BOASTER",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0022/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0046.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0047.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "마파두부",
           "role_grade": "단역",
@@ -759,21 +554,11 @@
       ],
       "family": "support",
       "rank_label": "조연",
-      "actor_logline": "국화 머리띠와 짧은 곱슬머리로 무리를 압도하며 오빠의 복수를 위해 앞장서는 독설 여표사.",
-      "identity_hook": "짧고 촘촘한 검은 곱슬머리 · 이마를 감싼 넓은 띠 · 중앙의 큰 국화 · 날카로운 눈 · 강한 코 · 짙은 입술 · 고리 귀걸이 · 꽃장식 망토",
-      "performance_range": "명령, 조롱, 분노, 경계, 전투 돌입, 오빠를 걱정하는 순간.",
-      "face_dna": "강인한 성인 여성의 각진 갸름한 얼굴, 높이 치켜뜬 눈썹, 좁고 명령조의 눈, 곧고 강한 코, 짙고 도톰한 입술.",
-      "age_band": "ADULT",
-      "archetype": "IMPERIOUS_ESCORT",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0023/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0048.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0049.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "천리향",
           "role_grade": "조연",
@@ -792,21 +577,11 @@
       ],
       "family": "minor",
       "rank_label": "단역",
-      "actor_logline": "온몸을 붕대로 감은 채 허세를 부리지만 산적 소리와 배탈 앞에서 진땀을 흘리는 엉뚱한 동행자.",
-      "identity_hook": "전신의 좁은 겹붕대 · 한쪽 눈만 노출 · 반대쪽 얼굴을 세로로 덮는 붕대띠 · 정수리의 작은 검은 상투 · 긴 코 · 굳은 입 · 진땀",
-      "performance_range": "경계, 억울함, 분노, 진땀, 배탈을 숨기는 민망함, 산적에게 겁먹는 과장 반응.",
-      "face_dna": "마른 성인 남성 얼굴, 한쪽만 크게 드러난 눈, 길고 각진 코, 눌린 입, 깊은 피로선. 비대칭 붕대 구조가 얼굴 자체의 핵심이다.",
-      "age_band": "ADULT",
-      "archetype": "BANDAGED_COWARD",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0024/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0050.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0051.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "표륵",
           "role_grade": "단역",
@@ -825,25 +600,15 @@
         "잔흉쌍마의 아우"
       ],
       "family": "minor",
-      "rank_label": "조연",
-      "actor_logline": "호색과 잔혹을 한 얼굴에 걸고 다니며 유세옥의 무공을 시험하다가 허세가 무너지는 흑마 노인.",
-      "identity_hook": "높은 대머리 이마 · 뒤로 묶은 작은 머리 · 볼 아래로 길게 떨어지는 눈썹·콧수염 두 갈래 · 둥글게 처진 긴 코 · 검게 빠진 앞니 · 뾰족한 턱수염 · 가는 반달눈",
-      "performance_range": "음흉한 관찰, 호색적 흥분, 살기, 제자를 자처하는 허세, 유세옥에게 압도된 경악과 비굴한 진땀.",
-      "face_dna": "길고 좁은 말상, 둥글게 처진 거대한 코, 눈을 반쯤 감은 교활한 시선, 뺨 아래까지 곧게 떨어지는 흰 눈썹·콧수염, 중앙 앞니가 검게 비는 비뚤어진 웃음.",
-      "age_band": "ELDER",
-      "archetype": "LECHEROUS_TWIN_DEMON",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0025/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "캐릭터",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0052.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0053.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "좌냉동",
-          "role_grade": "조연",
+          "role_grade": "캐릭터",
           "volumes": [
             13
           ]
@@ -857,21 +622,11 @@
       "aliases": [],
       "family": "minor",
       "rank_label": "단역",
-      "actor_logline": "죽은 줄 알았던 비룡표국의 거구 표사로, 국주의 명령을 좇는 우직한 생존자.",
-      "identity_hook": "짧고 빽빽한 곱슬머리 · 밝은 천 머리띠 · 굵은 일자 눈썹 · 작은 눈 · 넓고 납작한 코 · 사각 턱의 검은 수염 그늘 · 넓은 어깨",
-      "performance_range": "경계, 충성, 분노, 긴장, 명령 복종.",
-      "face_dna": "짧고 빽빽한 곱슬머리 · 밝은 천 머리띠 · 굵은 일자 눈썹 · 작은 눈 · 넓고 납작한 코 · 사각 턱의 검은 수염 그늘 · 넓은 어깨",
-      "age_band": "ADULT",
-      "archetype": "BURLY_GUARD",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0026/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0054.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0055.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "손군",
           "role_grade": "단역",
@@ -888,21 +643,11 @@
       "aliases": [],
       "family": "minor",
       "rank_label": "단역",
-      "actor_logline": "손군과 함께 죽음에서 돌아온 비룡표국 표사로, 계산 빠른 시선으로 판세를 읽는다.",
-      "identity_hook": "연꽃잎처럼 솟은 높은 머리띠 장식 · 긴 묶음 꼬리 · 날카로운 좁은 눈 · 길게 기운 뾰족코 · 각진 턱의 수염 그늘 · 흑백 교차깃",
-      "performance_range": "의심, 계산, 충성, 도발, 긴장.",
-      "face_dna": "연꽃잎처럼 솟은 높은 머리띠 장식 · 긴 묶음 꼬리 · 날카로운 좁은 눈 · 길게 기운 뾰족코 · 각진 턱의 수염 그늘 · 흑백 교차깃",
-      "age_band": "ADULT",
-      "archetype": "LOTUS_HEADBAND_GUARD",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0027/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0056.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0055.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "발군",
           "role_grade": "단역",
@@ -920,25 +665,15 @@
         "전 표사"
       ],
       "family": "minor",
-      "rank_label": "조연",
-      "actor_logline": "국주의 딸과 유세옥 사이를 오가며 정보를 풀어내는 수다스럽고 겁 많은 비룡표국 표사.",
-      "identity_hook": "둥근 천 모자와 넓은 삼각 꼬리 · 두 갈래 긴 옆머리 · 큰 고리 귀걸이 · 매우 긴 각진 코와 돌출 입 · 반수면 눈 · 작은 뾰족 턱수염 · 목의 고리 매듭 셋",
-      "performance_range": "아부 웃음, 탐식, 공포, 설명, 짜증, 음흉한 추측.",
-      "face_dna": "둥근 천 모자와 넓은 삼각 꼬리 · 두 갈래 긴 옆머리 · 큰 고리 귀걸이 · 매우 긴 각진 코와 돌출 입 · 반수면 눈 · 작은 뾰족 턱수염 · 목의 고리 매듭 셋",
-      "age_band": "ADULT",
-      "archetype": "TALKATIVE_SCOUT",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0028/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "캐릭터",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0057.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0058.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "전표사",
-          "role_grade": "조연",
+          "role_grade": "캐릭터",
           "volumes": [
             14
           ]
@@ -953,27 +688,331 @@
         "대모님"
       ],
       "family": "major_support",
-      "rank_label": "주요조연",
-      "actor_logline": "거대한 체격과 왕관형 상투, 계산적인 미소로 장로들을 휘어잡는 녹림의 대모.",
-      "identity_hook": "왕관형 높은 상투·흰 베일·중앙 구슬 이마장식·나선형 앞머리·거대한 고리 귀걸이·긴 옥 장식·강한 코·깊게 열린 겹무복",
-      "performance_range": "원로들을 압박하는 자신감, 사안을 재단하는 냉정함, 유세옥을 떠보는 여유, 분노를 숨긴 미소.",
-      "face_dna": "길고 성숙한 얼굴, 매우 높고 가는 눈썹, 좁고 치켜뜬 눈, 길고 곧은 콧등과 뾰족한 코끝, 짙고 도톰한 입술. 양 관자에는 굵은 나선 앞머리가 내려온다.",
-      "age_band": "MATURE",
-      "archetype": "IMPERIAL_MATRIARCH",
-      "status": "IN_REVIEW",
-      "dna_approved": false,
-      "acting_set_approved": false,
-      "color_sheet_url": "./aistory/assets/haseungnam-dna/actors/HSN-DNA-0029/color-in-review-v1.webp",
-      "ink_sheet_url": null,
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0059.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0060.webp",
       "appearance_variants": [],
       "castings": [
         {
-          "work_id": "goltong",
           "work_title": "골통대난동",
           "role_name": "대모",
-          "role_grade": "주요조연",
+          "role_grade": "준대조연",
           "volumes": [
             20
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0030",
+      "actor_name": "우홍관",
+      "name_hanja": "",
+      "aliases": [],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0061.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0062.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "우홍관",
+          "role_grade": "조연",
+          "volumes": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0031",
+      "actor_name": "냉사",
+      "name_hanja": "",
+      "aliases": [],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0063.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0064.webp",
+      "appearance_variants": [
+        {
+          "variant_id": "public-HSN-DNA-0031-1",
+          "label": "외형 1",
+          "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0065.webp",
+          "ink_sheet_url": null,
+          "volume_scope": []
+        }
+      ],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "냉사",
+          "role_grade": "조연",
+          "volumes": [
+            4,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0032",
+      "actor_name": "구양수로",
+      "name_hanja": "",
+      "aliases": [
+        "구양가 가주",
+        "가주"
+      ],
+      "family": "major_support",
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0066.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0067.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "구양수로",
+          "role_grade": "준대조연",
+          "volumes": [
+            4,
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0033",
+      "actor_name": "녹림천존의 외팔 큰아들",
+      "name_hanja": "",
+      "aliases": [
+        "외팔 큰아들"
+      ],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0068.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0004.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "녹림천존의 외팔 큰아들",
+          "role_grade": "조연",
+          "volumes": [
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0034",
+      "actor_name": "사마지인의 시녀",
+      "name_hanja": "",
+      "aliases": [
+        "시녀"
+      ],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0069.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0019.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "사마지인의 시녀",
+          "role_grade": "조연",
+          "volumes": [
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0035",
+      "actor_name": "이공자",
+      "name_hanja": "",
+      "aliases": [
+        "이 공자"
+      ],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0070.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0071.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "이공자",
+          "role_grade": "조연",
+          "volumes": [
+            8,
+            17,
+            20,
+            25
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0036",
+      "actor_name": "이공자의 어머니",
+      "name_hanja": "",
+      "aliases": [
+        "이공자 모친"
+      ],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0072.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0071.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "이공자의 어머니",
+          "role_grade": "조연",
+          "volumes": [
+            8
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0037",
+      "actor_name": "몽영",
+      "name_hanja": "",
+      "aliases": [],
+      "family": "major_support",
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0073.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0074.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "몽영",
+          "role_grade": "준대조연",
+          "volumes": [
+            1,
+            16,
+            17,
+            18,
+            19,
+            21,
+            22,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0038",
+      "actor_name": "낭치",
+      "name_hanja": "",
+      "aliases": [],
+      "family": "major_support",
+      "rank_label": "준대조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0075.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0076.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "낭치",
+          "role_grade": "준대조연",
+          "volumes": [
+            1,
+            16,
+            18,
+            19,
+            21,
+            23
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0039",
+      "actor_name": "구양세가 소가주",
+      "name_hanja": "",
+      "aliases": [
+        "구양공자",
+        "소가주"
+      ],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0077.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0078.webp",
+      "appearance_variants": [
+        {
+          "variant_id": "public-HSN-DNA-0039-1",
+          "label": "외형 1",
+          "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0079.webp",
+          "ink_sheet_url": null,
+          "volume_scope": []
+        }
+      ],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "구양세가 소가주",
+          "role_grade": "조연",
+          "volumes": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0040",
+      "actor_name": "자객루 장발 지휘자",
+      "name_hanja": "",
+      "aliases": [
+        "장발 자객 지휘자"
+      ],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0080.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0081.webp",
+      "appearance_variants": [
+        {
+          "variant_id": "public-HSN-DNA-0040-1",
+          "label": "외형 1",
+          "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0082.webp",
+          "ink_sheet_url": null,
+          "volume_scope": []
+        }
+      ],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "자객루 장발 지휘자",
+          "role_grade": "조연",
+          "volumes": [
+            5,
+            7
+          ]
+        }
+      ]
+    },
+    {
+      "actor_id": "HSN-DNA-0041",
+      "actor_name": "무면",
+      "name_hanja": "",
+      "aliases": [
+        "무면인"
+      ],
+      "family": "support",
+      "rank_label": "조연",
+      "color_sheet_url": "./aistory/assets/goltong-public/images/gtd-0083.webp",
+      "ink_sheet_url": "./aistory/assets/goltong-public/images/gtd-0084.webp",
+      "appearance_variants": [],
+      "castings": [
+        {
+          "work_title": "골통대난동",
+          "role_name": "무면",
+          "role_grade": "조연",
+          "volumes": [
+            8
           ]
         }
       ]

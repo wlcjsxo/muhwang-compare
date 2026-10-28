@@ -11,7 +11,7 @@
 <body data-archive-name="하승남 캐릭터 아카이브" data-registry-url="./aistory/data/haseungnam-dna-actors.json" data-dna-label="HA SEUNG-NAM CHARACTER">
   <main class="shell">
     <header class="masthead"><div><span class="eyebrow">HA SEUNG-NAM · CHARACTER ARCHIVE</span><h1>하승남 · 골통대난동 캐릭터 아카이브</h1><p class="sub">골통대난동 전 25권에서 선별한 캐릭터 정본과 공개 출연 정보를 열람합니다.</p></div><div class="header-actions"><span class="db-indicator" id="registry-status">● 공개 캐릭터 아카이브</span><a class="hub-link" href="./">5대 거장 특별관</a></div></header>
-    <aside class="registry-principle" aria-label="공개 안내"><div><strong>공개 캐릭터 아카이브</strong><span>제작 프롬프트·내부 경로·해시·검수 기록을 제외한 캐릭터 정보만 표시합니다.</span></div></aside>
+    <aside class="registry-principle" aria-label="공개 안내"><div><strong>공개 캐릭터 아카이브</strong><span>캐릭터 이름, 컬러·먹선 이미지, 작품별 출연 정보만 표시합니다.</span></div></aside>
     <nav class="fleet-nav" id="actor-family-nav" aria-label="캐릭터 계열 선택">
       <button type="button" class="fleet-tab active" data-family="all"><span class="tab-badge">MASTER INDEX</span><span class="tab-title">전체 캐릭터</span><span class="tab-sub">공개 아카이브 · 0명</span></button>
       <button type="button" class="fleet-tab" data-family="lead"><span class="tab-badge">LEAD</span><span class="tab-title">주연</span><span class="tab-sub">서사의 중심 · 0명</span></button>
@@ -20,15 +20,14 @@
       <button type="button" class="fleet-tab" data-family="minor"><span class="tab-badge">MINOR</span><span class="tab-title">단역</span><span class="tab-sub">개성 있는 장면 · 0명</span></button>
       <button type="button" class="fleet-tab" data-family="ensemble"><span class="tab-badge">ENSEMBLE</span><span class="tab-title">군상</span><span class="tab-sub">집단과 세계 · 0명</span></button>
     </nav>
-    <section class="metrics registry-metrics" aria-label="공개 캐릭터 현황"><div class="metric"><span>전체 캐릭터</span><strong id="metric-total">0</strong></div><div class="metric dna"><span>DNA 승인</span><strong id="metric-dna">0</strong></div><div class="metric pass"><span>컬러 이미지</span><strong id="metric-color">0</strong></div><div class="metric"><span>먹선 이미지</span><strong id="metric-ink">0</strong></div><div class="metric archetype"><span>연기 세트</span><strong id="metric-acting">0</strong></div><div class="metric"><span>출연 작품</span><strong id="metric-works">0</strong></div><div class="metric warn"><span>검수중</span><strong id="metric-research">0</strong></div><div class="metric fail"><span>재검수</span><strong id="metric-rework">0</strong></div></section>
-    <section class="toolbar" aria-label="캐릭터 검색과 필터"><input id="search" type="search" placeholder="이름·외형·성격·출연 작품 검색"><select id="status-filter"><option value="">공개 상태 전체</option><option value="APPROVED">승인</option><option value="IN_REVIEW">검수중</option><option value="REWORK">재검수</option></select><select id="age-filter"><option value="">연령대 전체</option><option value="TEEN">10대</option><option value="YOUNG">청년</option><option value="MIDDLE">중년</option><option value="ELDER">노년</option><option value="MULTI_AGE">다연령</option></select><select id="archetype-filter"><option value="">캐릭터 원형 전체</option><option value="HERO">영웅</option><option value="TRICKSTER">감초·괴짜</option><option value="MENTOR">사부·원로</option><option value="STRATEGIST">책사</option><option value="RIVAL">숙적</option><option value="VILLAIN">악역</option><option value="ENSEMBLE">군상</option></select></section>
-    <p class="notice">공개용으로 정리된 캐릭터 정보만 표시합니다.</p>
-    <section id="development-mount" class="development-mount" aria-label="공개 참고 자료"></section>
+    <section class="metrics registry-metrics" aria-label="골통대난동 공개 캐릭터 현황"><div class="metric"><span>전체 캐릭터</span><strong id="metric-total">0</strong></div><div class="metric pass"><span>컬러 이미지</span><strong id="metric-color">0</strong></div><div class="metric"><span>먹선 이미지</span><strong id="metric-ink">0</strong></div><div class="metric"><span>출연 작품</span><strong id="metric-works">0</strong></div><div class="metric dna"><span>주연</span><strong id="metric-lead">0</strong></div><div class="metric archetype"><span>조연</span><strong id="metric-support">0</strong></div><div class="metric warn"><span>단역</span><strong id="metric-minor">0</strong></div><div class="metric fail"><span>군상</span><strong id="metric-ensemble">0</strong></div></section>
+    <section class="toolbar" aria-label="공개 캐릭터 검색"><input id="search" type="search" placeholder="캐릭터 ID·이름·작품·배역 검색"></section>
+    <p class="notice">캐릭터 이름, 컬러·먹선 이미지, 작품별 출연 정보만 공개합니다.</p>
     <p id="registry-message" class="notice" role="status" aria-live="polite">캐릭터 아카이브를 불러오는 중입니다.</p>
     <section id="grid" class="grid actor-grid" aria-label="캐릭터 카드"><p class="empty">캐릭터 자료를 불러오는 중입니다.</p></section>
     <nav class="pager" aria-label="캐릭터 페이지"><button id="prev-page" class="pager-move" type="button">‹ 이전</button><div id="page-buttons" class="page-buttons" aria-label="페이지 바로가기"></div><button id="next-page" class="pager-move" type="button">다음 ›</button><strong id="page-info">1 / 1</strong></nav>
   </main>
-  <dialog id="viewer"><div class="modal-head"><strong id="modal-title">캐릭터 상세</strong><button id="close-modal" type="button">닫기</button></div><div class="modal-grid"><img id="modal-color" alt="캐릭터 컬러 이미지"><img id="modal-ink" alt="캐릭터 먹선 이미지"></div><section id="modal-dna" class="dna-detail" aria-label="캐릭터 정보와 출연 이력"></section></dialog>
-  <script src="./aistory/js/goltong-casting-pavilion.js?v=public-archive-20261028"></script>
+  <dialog id="viewer"><div class="modal-head"><strong id="modal-title">캐릭터 상세</strong><button id="close-modal" type="button">닫기</button></div><div class="modal-grid"><img id="modal-color" alt="캐릭터 컬러 이미지"><img id="modal-ink" alt="캐릭터 먹선 이미지"></div><section id="modal-dna" class="dna-detail" aria-label="캐릭터 공개 출연 이력"></section></dialog>
+  <script src="./aistory/js/goltong-casting-pavilion.js?v=public-gallery-41-20261028"></script>
 </body>
 </html>
