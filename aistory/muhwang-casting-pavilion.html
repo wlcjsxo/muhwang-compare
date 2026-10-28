@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>무황기협전 · 캐릭터 시트</title>
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="/aistory/css/muhwang-casting-pavilion.css?v=public-gallery-20261028">
+</head>
+<body>
+  <a class="skip-link" href="#catalog">목록으로 건너뛰기</a>
+  <main class="shell">
+    <header class="masthead">
+      <div class="title-block">
+        <p class="eyebrow">STORYARK · MUHWANG CHARACTER ARCHIVE</p>
+        <h1><span>無皇騎俠傳</span>무황기협전 캐릭터 시트</h1>
+        <p class="dek">47권 원문에서 정리한 183명의 캐릭터와 컬러·먹선 시트를 공개 열람합니다.</p>
+      </div>
+      <div class="mast-actions">
+        <span class="live-status"><i></i><b id="archive-status">공개 자료 불러오는 중</b></span>
+        <span class="source-seal">47권 원문 기반</span>
+        <a class="back-link" href="../">제안서로 돌아가기</a>
+      </div>
+    </header>
+
+    <section class="doctrine" aria-label="공개관 안내">
+      <div><b>47권 원문 기반</b><span>전권에서 확인된 인물 이름과 등장 권차를 정리했습니다.</span></div>
+      <div><b>183명 캐릭터</b><span>주연부터 조연·단역까지 하나의 공개 목록으로 제공합니다.</span></div>
+      <div><b>컬러·먹선 시트</b><span>제작이 완료된 캐릭터 시트를 원본 비율로 열람할 수 있습니다.</span></div>
+    </section>
+
+    <section class="metrics" aria-label="공개 캐릭터 현황">
+      <article><span>전체 캐릭터</span><strong id="metric-total">0</strong><small>명</small></article>
+      <article><span>컬러·대표 이미지</span><strong id="metric-color">0</strong><small>장</small></article>
+      <article><span>먹선 시트</span><strong id="metric-ink">0</strong><small>장</small></article>
+      <article><span>원작 권수</span><strong id="metric-volumes">47</strong><small>권</small></article>
+      <article><span>배역 등급</span><strong id="metric-tiers">0</strong><small>종</small></article>
+    </section>
+
+    <section class="toolbar" aria-label="캐릭터 검색과 필터">
+      <label>통합 검색<input id="search" type="search" placeholder="이름·별칭·배역 검색"></label>
+      <label>등급<select id="tier-filter"><option value="">전체 등급</option></select></label>
+      <label>등장 권<select id="volume-filter"><option value="">전 47권</option></select></label>
+    </section>
+
+    <header class="catalog-head">
+      <div><p id="view-kicker">CAST REGISTER</p><h2>인물 캐스팅 원장</h2></div>
+      <p id="result-count" role="status">공개 자료를 불러오는 중입니다.</p>
+    </header>
+
+    <section id="catalog" class="catalog" aria-label="무황기협전 캐릭터 목록">
+      <p class="loading">공개 캐릭터 자료를 불러오는 중입니다.</p>
+    </section>
+
+    <nav class="pager" aria-label="캐릭터 페이지" style="display:flex;align-items:center;justify-content:center;gap:8px;margin:28px 0">
+      <button id="prev-page" class="detail-open" type="button">‹ 이전</button>
+      <div id="page-buttons" style="display:flex;flex-wrap:wrap;justify-content:center;gap:6px"></div>
+      <button id="next-page" class="detail-open" type="button">다음 ›</button>
+      <strong id="page-info" style="margin-left:8px;color:var(--paper-dim)">1 / 1</strong>
+    </nav>
+  </main>
+
+  <dialog id="viewer">
+    <div class="dialog-head">
+      <div><p id="dialog-kicker">PUBLIC CHARACTER ARCHIVE</p><h2 id="dialog-title">캐릭터 상세</h2></div>
+      <button id="dialog-close" type="button">닫기</button>
+    </div>
+    <div class="dialog-body">
+      <div id="dialog-images" class="detail-master-pair"></div>
+      <section id="dialog-info" class="detail-section"></section>
+    </div>
+  </dialog>
+
+  <script src="/aistory/js/muhwang-public-characters.js?v=public-gallery-20261028"></script>
+</body>
+</html>

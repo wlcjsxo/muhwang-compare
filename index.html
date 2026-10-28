@@ -420,7 +420,7 @@
             <button class="showcase-card" type="button" data-view="yaseolrok"><span class="card-visual"><img src="./aistory/assets/menu/dojisan-yaseolrok.png" alt="도지산검지림 야설록 대표 이미지" loading="eager"><span class="card-title-overlay"><small>야설록</small><strong>도지산검지림</strong></span></span><span class="card-copy"><p>166배역과 21권, 4,429쪽 제작 기록.</p><span class="card-link">야설록 작품관 열기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></button>
             <button class="showcase-card" type="button" data-view="goltong"><span class="card-visual"><img src="./aistory/assets/menu/goltong-haseungnam.png" alt="골통 대난동 하승남 대표 이미지" loading="eager"><span class="card-title-overlay"><small>하승남</small><strong>골통 대난동</strong></span></span><span class="card-copy"><p>41명 공개 캐릭터와 전 25권 원작 대조.</p><span class="card-link">하승남 작품관 열기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></button>
             <a class="showcase-card" href="./aistory/character-review.html?seat=nova&amp;v=public-sanitized-20261028" target="_blank" rel="noopener noreferrer"><span class="card-visual"><img src="./aistory/assets/menu/samadal-character-sheet.png" alt="사마달 캐릭터 시트 대표 이미지" loading="eager"><span class="card-title-overlay"><small>사마달</small><strong>캐릭터 시트</strong></span></span><span class="card-copy"><p>사마달 563인의 컬러·먹선 캐릭터 시트를 공개 열람합니다.</p><span class="card-link">캐릭터 시트 열기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></a>
-            <button class="showcase-card" type="button" data-view="v2"><span class="card-visual"><img src="./aistory/assets/menu/muhwang-character-sheet.png" alt="무황기협전 캐릭터 시트 대표 이미지" loading="eager"><span class="card-title-overlay"><small>무황기협전</small><strong>캐릭터 시트</strong></span></span><span class="card-copy"><p>6대 핵심 캐릭터 정본과 적용 렌더링을 함께 검토합니다.</p><span class="card-link">캐릭터 시트 열기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></button>
+            <button class="showcase-card" type="button" data-view="v2"><span class="card-visual"><img src="./aistory/assets/menu/muhwang-character-sheet.png" alt="무황기협전 캐릭터 시트 대표 이미지" loading="eager"><span class="card-title-overlay"><small>무황기협전</small><strong>캐릭터 시트</strong></span></span><span class="card-copy"><p>47권 원문 기반 183명의 컬러·먹선 캐릭터 시트를 공개합니다.</p><span class="card-link">캐릭터 시트 열기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></button>
             <a class="showcase-card" href="./aistory/muhwang-special.html?id=73" target="_blank" rel="noopener noreferrer"><span class="card-visual"><img src="./aistory/assets/muhwang-live73/media/outputs/gold01-titan-aside-first-001.png" alt="무황기협전 특별관 대표 이미지" loading="eager"><span class="card-title-overlay"><small>무황기협전</small><strong>특별관</strong></span></span><span class="card-copy"><p>112쪽 완성본을 2면 펼침으로 읽고, 인트로 말풍선을 누르면 음성이 재생됩니다.</p><span class="card-link">음성 특별관 열기<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span></a>
           </div>
         </div>
@@ -478,7 +478,7 @@
         yaseolrok: { title: '도지산검지림 · 야설록', meta: '166명 공개 캐릭터 · 전 21권', frame: './yaseolrok.html?v=public-gallery-20261028' },
         goltong: { title: '골통 대난동 · 하승남', meta: '41명 공개 캐릭터 · 전 25권', frame: './goltong.html?v=public-gallery-41-20261028' },
         v1: { title: '무황기협전 · 특별관', meta: '원작 112쪽과 신규 렌더 정본 1:1 대조', data: 'v1', resultKey: 'color', resultLabel: '신규 컬러 정본' },
-        v2: { title: '무황기협전 · 캐릭터 시트', meta: '6대 핵심 캐릭터 정본과 28쪽 적용 렌더링', data: 'v2', resultKey: 'v2', resultLabel: '캐릭터시트 적용본' },
+        v2: { title: '무황기협전 · 캐릭터 시트', meta: '47권 원문 기반 183명 캐릭터 공개 아카이브', frame: './aistory/muhwang-casting-pavilion.html?v=public-gallery-20261028' },
         v3: { title: '무황기협전 · 시네마틱 인트로', meta: '1~14쪽 시네마틱 연출 대조', data: 'v3', resultKey: 'v3', resultLabel: '시네마틱 연출본' }
       };
       const homeView = document.getElementById('homeView');
@@ -546,7 +546,7 @@
         activeSlides = view === 'v1' ? all.slice() : all.filter(function (slide) { return Boolean(slide[info.resultKey]); });
         activeInfo = info;
         currentSlide = 0;
-        const characterHtml = view === 'v2' ? renderCharacterSection() : '';
+        const characterHtml = '';
         viewerRoot.innerHTML = '<div class="viewer-shell">' +
           '<div class="viewer-summary"><div><h2>' + info.title + '</h2><p>' + info.meta + '</p></div><span class="viewer-count" id="viewerCount"></span></div>' +
           '<div class="viewer-panel"><div class="compare-grid">' +
@@ -560,12 +560,6 @@
         updateSlide();
       }
 
-      function renderCharacterSection() {
-        const chars = (window.SHOWCASE_DATA && window.SHOWCASE_DATA.characters) || [];
-        return '<section class="character-section"><h3>6대 핵심 캐릭터 시트</h3><div class="character-grid">' + chars.map(function (character) {
-          return '<article class="character-card"><img src="' + character.color + '" alt="' + character.name + ' 캐릭터 시트" loading="lazy"><div><strong>' + character.name + '</strong><span>' + character.role + '</span></div></article>';
-        }).join('') + '</div></section>';
-      }
 
       function setSlide(index) {
         if (!activeSlides.length) return;
@@ -599,7 +593,7 @@
         if (trigger) openView(trigger.dataset.view);
       });
       document.addEventListener('keydown', function (event) {
-        if (currentView === 'v1' || currentView === 'v2' || currentView === 'v3') {
+        if (currentView === 'v1' || currentView === 'v3') {
           if (event.key === 'ArrowLeft') moveSlide(-1);
           if (event.key === 'ArrowRight') moveSlide(1);
         }
@@ -611,7 +605,7 @@
           if (doc && !doc.getElementById('portal-frame-style')) {
             const style = doc.createElement('style');
             style.id = 'portal-frame-style';
-            style.textContent = ['hwangseong', 'yaseolrok', 'goltong'].includes(currentView)
+            style.textContent = ['hwangseong', 'yaseolrok', 'goltong', 'v2'].includes(currentView)
               ? 'html{scrollbar-color:#3a5260 #071016}'
               : 'html{scrollbar-color:#cbd5e1 #f8fafc} body{background:#fff!important}';
             doc.head.appendChild(style);
