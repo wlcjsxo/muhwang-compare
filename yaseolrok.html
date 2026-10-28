@@ -36,26 +36,22 @@
       <button type="button" class="fleet-tab" data-family="ensemble"><span class="tab-badge">ENSEMBLE</span><span class="tab-title">군상</span><span class="tab-sub">집단 군상 배우 · 0배역 단위</span></button>
     </nav>
 
-    <section class="metrics registry-metrics" aria-label="야설록DNA 배우 현황">
-      <div class="metric"><span>등록 배역 단위</span><strong id="metric-total">0</strong></div>
-      <div class="metric dna"><span>DNA 승인</span><strong id="metric-dna">0</strong></div>
-      <div class="metric pass"><span>컬러 참고/제작본</span><strong id="metric-color">0</strong></div>
-      <div class="metric"><span>원작/먹선 참고</span><strong id="metric-ink">0</strong></div>
-      <div class="metric archetype"><span>연기 세트</span><strong id="metric-acting">0</strong></div>
-      <div class="metric"><span>캐스팅 작품</span><strong id="metric-works">0</strong></div>
-      <div class="metric warn"><span>검수중</span><strong id="metric-research">0</strong></div>
-      <div class="metric fail"><span>재검수</span><strong id="metric-rework">0</strong></div>
+    <section class="metrics registry-metrics" aria-label="야설록 공개 캐릭터 현황">
+      <div class="metric"><span>전체 캐릭터</span><strong id="metric-total">0</strong></div>
+      <div class="metric pass"><span>컬러 이미지</span><strong id="metric-color">0</strong></div>
+      <div class="metric"><span>먹선 이미지</span><strong id="metric-ink">0</strong></div>
+      <div class="metric"><span>출연 작품</span><strong id="metric-works">0</strong></div>
+      <div class="metric dna"><span>주연</span><strong id="metric-lead">0</strong></div>
+      <div class="metric archetype"><span>조연</span><strong id="metric-support">0</strong></div>
+      <div class="metric warn"><span>단역</span><strong id="metric-minor">0</strong></div>
+      <div class="metric fail"><span>군상</span><strong id="metric-ensemble">0</strong></div>
     </section>
 
-    <section class="toolbar" aria-label="배우 원장 검색과 필터">
-      <input id="search" type="search" placeholder="배우 ID·이름·얼굴 DNA·연기 범위 검색">
-      <select id="status-filter"><option value="">제작 상태 전체</option><option value="COLOR_APPROVED">컬러 검수통과</option><option value="APPROVED">정본 승인</option><option value="IN_REVIEW">검수중</option><option value="REWORK">재검수</option></select>
-      <select id="age-filter"><option value="">연령대 전체</option><option value="TEEN">10대</option><option value="YOUNG">청년</option><option value="MIDDLE">중년</option><option value="ELDER">노년</option><option value="MULTI_AGE">다연령</option></select>
-      <select id="archetype-filter"><option value="">배우 원형 전체</option><option value="HERO">영웅</option><option value="TRICKSTER">감초·괴짜</option><option value="MENTOR">사부·원로</option><option value="STRATEGIST">책사</option><option value="RIVAL">숙적</option><option value="VILLAIN">악역</option><option value="ENSEMBLE">군상</option></select>
+    <section class="toolbar" aria-label="공개 캐릭터 검색">
+      <input id="search" type="search" placeholder="캐릭터 ID·이름·작품·배역 검색">
     </section>
 
-    <p class="notice">원본 화면의 166배역 단위와 승인된 컬러·먹선 이미지를 공개용으로 옮겼습니다.</p>
-    <section id="development-mount" class="development-mount" aria-label="정본 등록 전 연구 자료"></section>
+    <p class="notice">캐릭터 이름, 컬러·먹선 이미지, 작품별 출연 정보만 공개합니다.</p>
     <p id="registry-message" class="notice" role="status" aria-live="polite">야설록DNA 배우 원장을 불러오는 중입니다.</p>
     <section id="grid" class="grid actor-grid" aria-label="야설록DNA 배우 카드"><p class="empty">배우 원장을 불러오는 중입니다.</p></section>
 
@@ -70,9 +66,9 @@
   <dialog id="viewer">
     <div class="modal-head"><strong id="modal-title">야설록DNA 배우 상세</strong><button id="close-modal" type="button">닫기</button></div>
     <div class="modal-grid"><img id="modal-color" alt="배우 컬러 참고 또는 제작본"><img id="modal-ink" alt="배우 원작 또는 먹선 참고"></div>
-    <section id="modal-dna" class="dna-detail" aria-label="배우 DNA 및 캐스팅 이력"></section>
+    <section id="modal-dna" class="dna-detail" aria-label="캐릭터 공개 출연 이력"></section>
   </dialog>
 
-  <script src="./aistory/js/yaseolrok-dna-characters.js?v=public-original-20261028"></script>
+  <script src="./aistory/js/yaseolrok-dna-characters.js?v=public-gallery-20261028"></script>
 </body>
 </html>
