@@ -62,7 +62,12 @@
     const age = $('#age-filter').value;
     const archetype = $('#archetype-filter').value;
     return registry.actors.filter((actor) => {
-      const haystack = JSON.stringify(actor).toLowerCase();
+      const haystack = [
+        actor.actor_id, actor.actor_name, actor.name_hanja, ...(actor.aliases || []),
+        actor.rank_label, actor.actor_logline, actor.identity_hook, actor.performance_range,
+        actor.face_dna, actor.archetype,
+        ...(actor.castings || []).flatMap((casting) => [casting.work_title, casting.role_name, casting.role_grade])
+      ].filter(Boolean).join(' ').toLowerCase();
       return (family === 'all' || actor.family === family) &&
         (!q || haystack.includes(q)) && (!status || actor.status === status) &&
         (!age || actor.age_band === age) && (!archetype || actor.archetype === archetype);
@@ -134,43 +139,20 @@
     $('#modal-title').textContent = `${actor.actor_name} · ${actor.actor_id}`;
     $('#modal-color').src = actor.color_sheet_url || './aistory/assets/hyeolgyeon-v2/pending-sheet.svg';
     $('#modal-ink').src = actor.ink_sheet_url || './aistory/assets/hyeolgyeon-v2/pending-sheet.svg';
-    const history = (actor.castings || []).map((casting) => `<article><strong>${esc(casting.work_title)}</strong><p>${esc(casting.role_grade || actor.rank_label || '')} · ${esc(casting.role_name)} · 출연 ${esc((casting.volumes || []).join(', '))}권</p><p>${esc(casting.role_note || '')}</p>${casting.comparison_url ? `<a href="${esc(casting.comparison_url)}">원작 대조 검수실</a>` : ''}</article>`).join('') || '<p>아직 작품 캐스팅 이력이 없습니다.</p>';
+    const history = (actor.castings || []).map((casting) => `<article><strong>${esc(casting.work_title)}</strong><p>${esc(casting.role_grade || actor.rank_label || '')} · ${esc(casting.role_name)} · 출연 ${esc((casting.volumes || []).join(', '))}권</p></article>`).join('') || '<p>아직 작품 출연 이력이 없습니다.</p>';
     const variants = actor.appearance_variants || [];
-    const variantGallery = variants.length > 1 ? `<section class="appearance-variants"><div class="variant-heading"><span class="dna-kicker">ONE ACTOR · CHRONOLOGY-LOCKED LOOKS</span><h3>시대별 배우 정본 ${variants.length}종</h3><p>같은 배우 ID를 유지하되, 작품의 시간대에 맞는 정본을 선택합니다.</p></div><div class="variant-detail-grid">${variants.map((variant) => `<article><div class="variant-pair"><figure><img loading="lazy" src="${esc(variant.color_sheet_url)}" alt="${esc(actor.actor_name)} ${esc(variant.label)} 컬러 정본"><figcaption>컬러 정본</figcaption></figure><figure><img loading="lazy" src="${esc(variant.ink_sheet_url)}" alt="${esc(actor.actor_name)} ${esc(variant.label)} 원작 먹선"><figcaption>원작 식별 근거</figcaption></figure></div><h4>${esc(variant.label)}</h4><p>${esc(variant.face_dna || '')}</p><p class="variant-scope">적용 권: ${esc((variant.volume_scope || []).map((v) => `${v}권`).join(' · '))}</p>${variant.ai_prompt_metadata_url ? `<a class="variant-metadata" href="${esc(variant.ai_prompt_metadata_url)}" download>이 버전의 AI 프롬프트 메타데이터</a>` : ''}</article>`).join('')}</div></section>` : '';
-    const reuse = actor.ai_reuse || {};
-    const integrity = actor.asset_integrity || {};
-    $('#modal-dna').innerHTML = `<header><span class="dna-kicker">${esc(actor.actor_id)} · PERMANENT DNA</span><h2>${esc(actor.actor_name)} <small>${esc(actor.name_hanja || '')}</small></h2><p class="dna-alias">${esc((actor.aliases || []).join(' · '))}</p><blockquote>${esc(actor.actor_logline || '')}</blockquote></header>${variantGallery}<div class="dna-columns"><section><h3>얼굴·골격 DNA</h3><p>${esc(actor.face_dna || '')}</p></section><section><h3>연기 범위</h3><p>${esc(actor.performance_range || '')}</p></section><section><h3>변형 허용 범위</h3><p>${esc(actor.allowed_variations || '')}</p></section></div><section class="ai-prompt-panel"><div class="prompt-heading"><div><span class="dna-kicker">AI READY · PROVENANCE AWARE</span><h3>AI 재활용 프롬프트 · 주 정본</h3></div><div class="prompt-actions"><button type="button" data-copy-prompt="effective">실제 유효 프롬프트 복사</button><button type="button" data-copy-prompt="identity">정체성 프롬프트 복사</button><button type="button" data-copy-prompt="casting">새 배역 템플릿 복사</button>${actor.ai_prompt_metadata_url ? `<a href="${esc(actor.ai_prompt_metadata_url)}" download>이미지 메타데이터 JSON</a>` : ''}</div></div><p class="prompt-truth"><b>기록 구분:</b> 실제 유효 프롬프트 ${esc(actor.prompt_provenance?.effective_generation_prompt_status || '미확인')} · 재사용 정규화본 ${esc(actor.prompt_provenance?.portable_prompt_status || '미확인')}</p><h4>실제 생성 기록의 유효 프롬프트</h4><pre id="actor-effective-prompt">${esc(reuse.verbatim_effective_generation_prompt || '')}</pre><h4>정체성 고정 프롬프트</h4><pre id="actor-identity-prompt">${esc(reuse.portable_identity_prompt || '')}</pre><h4>새 작품 캐스팅 템플릿</h4><pre id="actor-casting-prompt">${esc(reuse.casting_prompt_template || '')}</pre><details><summary>네거티브 프롬프트·파일 무결성</summary><pre>${esc(reuse.negative_prompt || '')}</pre><p class="hash-line">컬러 SHA-256 ${esc(integrity.color_sha256 || '')}<br>먹선 SHA-256 ${esc(integrity.ink_sha256 || '')}<br>크기 ${esc((integrity.color_dimensions || []).join(' × '))}<br>생성 원본 ${esc(actor.prompt_provenance?.original_generated_filename || '')}</p></details></section><h3>작품별 캐스팅 이력</h3><div class="casting-history">${history}</div>`;
+    const variantGallery = variants.length > 1 ? `<section class="appearance-variants"><div class="variant-heading"><span class="dna-kicker">CHARACTER APPEARANCE ARCHIVE</span><h3>시대별 캐릭터 시트 ${variants.length}종</h3></div><div class="variant-detail-grid">${variants.map((variant) => `<article><div class="variant-pair"><figure><img loading="lazy" src="${esc(variant.color_sheet_url)}" alt="${esc(actor.actor_name)} ${esc(variant.label)} 컬러 정본"><figcaption>컬러 정본</figcaption></figure><figure><img loading="lazy" src="${esc(variant.ink_sheet_url)}" alt="${esc(actor.actor_name)} ${esc(variant.label)} 원작 먹선"><figcaption>원작 식별 근거</figcaption></figure></div><h4>${esc(variant.label)}</h4><p>${esc(variant.face_dna || '')}</p><p class="variant-scope">등장 권: ${esc((variant.volume_scope || []).map((v) => `${v}권`).join(' · '))}</p></article>`).join('')}</div></section>` : '';
+    $('#modal-dna').innerHTML = `<header><span class="dna-kicker">${esc(actor.actor_id)} · CHARACTER PROFILE</span><h2>${esc(actor.actor_name)} <small>${esc(actor.name_hanja || '')}</small></h2><p class="dna-alias">${esc((actor.aliases || []).join(' · '))}</p><blockquote>${esc(actor.actor_logline || '')}</blockquote></header>${variantGallery}<div class="dna-columns"><section><h3>외형 특징</h3><p>${esc(actor.face_dna || '')}</p></section><section><h3>캐릭터 특징</h3><p>${esc(actor.performance_range || '')}</p></section></div><h3>작품별 출연 이력</h3><div class="casting-history">${history}</div>`;
     $('#viewer').showModal();
-  }
-
-  async function copyPrompt(kind) {
-    const target = kind === 'casting' ? $('#actor-casting-prompt') : kind === 'effective' ? $('#actor-effective-prompt') : $('#actor-identity-prompt');
-    const button = document.querySelector(`[data-copy-prompt="${kind}"]`);
-    if (!target || !button) return;
-    if (navigator.clipboard && window.isSecureContext) {
-      await navigator.clipboard.writeText(target.textContent);
-    } else {
-      const helper = document.createElement('textarea');
-      helper.value = target.textContent;
-      helper.style.position = 'fixed'; helper.style.opacity = '0';
-      document.body.appendChild(helper); helper.select();
-      if (!document.execCommand('copy')) throw new Error('copy unavailable');
-      helper.remove();
-    }
-    const previous = button.textContent;
-    button.textContent = '복사 완료';
-    setTimeout(() => { button.textContent = previous; }, 1200);
   }
 
   document.addEventListener('click', (event) => {
     const familyButton = event.target.closest('[data-family]');
     const pageButton = event.target.closest('[data-page]');
     const actorButton = event.target.closest('[data-open-actor]');
-    const copyButton = event.target.closest('[data-copy-prompt]');
     if (familyButton) { family = familyButton.dataset.family; page = 1; document.querySelectorAll('[data-family]').forEach((button) => button.classList.toggle('active', button === familyButton)); render(); }
     if (pageButton) { page = Number(pageButton.dataset.page); render(); }
     if (actorButton) { event.preventDefault(); openActor(actorButton.dataset.openActor); }
-    if (copyButton) { copyPrompt(copyButton.dataset.copyPrompt).catch(() => { copyButton.textContent = '복사 실패'; }); }
   });
   installOriginalImageViewer();
   ['search','status-filter','age-filter','archetype-filter'].forEach((id) => $('#' + id).addEventListener(id === 'search' ? 'input' : 'change', () => { page = 1; render(); }));
@@ -178,10 +160,9 @@
   $('#next-page').addEventListener('click', () => { page++; render(); });
   $('#close-modal').addEventListener('click', () => $('#viewer').close());
   $('#viewer').addEventListener('click', (event) => { if (event.target === $('#viewer')) $('#viewer').close(); });
-  $('#export').addEventListener('click', () => { const blob = new Blob([JSON.stringify(registry, null, 2)], {type:'application/json'}); const link = document.createElement('a'); link.href = URL.createObjectURL(blob); link.download = 'hwangseong-dna-actor-registry.json'; link.click(); setTimeout(() => URL.revokeObjectURL(link.href), 1000); });
 
-  fetch('./aistory/data/hwangseong-dna-actors.json?v=registry-20261025-v26', {cache:'no-store'})
+  fetch('./aistory/data/hwangseong-dna-actors.json?v=public-scrub-20261028', {cache:'no-store'})
     .then((response) => { if (!response.ok) throw new Error(`HTTP ${response.status}`); return response.json(); })
-    .then((data) => { registry = data; updateMetrics(); renderDevelopment(); render(); $('#registry-status').textContent = `● ${data.schema} · ${data.version}`; })
-    .catch((error) => { $('#registry-message').textContent = `배우 원장 로딩 실패: ${error.message}`; $('#grid').innerHTML = '<p class="empty">배우 원장을 불러오지 못했습니다.</p>'; });
+    .then((data) => { registry = data; updateMetrics(); renderDevelopment(); render(); $('#registry-status').textContent = `● 공개 캐릭터 아카이브 · ${data.actors.length}명`; })
+    .catch((error) => { $('#registry-message').textContent = `캐릭터 아카이브 로딩 실패: ${error.message}`; $('#grid').innerHTML = '<p class="empty">캐릭터 자료를 불러오지 못했습니다.</p>'; });
 })();
