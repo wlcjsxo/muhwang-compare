@@ -344,6 +344,13 @@
       .nav-button.home-button svg { width: 38px; height: 38px; }
       .nav-button b { font-size: 36px; }
       .nav-button small { margin-top: 8px; font-size: 27px; }
+      .pipeline-label h3 { font-size: 44px; }
+      .pipeline-label span { font-size: 24px; }
+      .pipeline-label { margin-bottom: 36px; }
+      .pipeline-card { padding: 42px; }
+      .steps { gap: 16px; }
+      .step { min-height: 96px; padding: 20px 24px; border-radius: 20px; gap: 20px; font-size: 28px; }
+      .step-num { width: 48px; height: 48px; flex-basis: 48px; font-size: 22px; }
     }
     @media (max-width: 1180px) {
       :root { --header-height: 112px; }
@@ -429,31 +436,13 @@
           <p class="eyebrow">MR.BLUE AI PRODUCTION PARTNERSHIP</p>
           <h1>무협 만화 공정의 미래.<br>미얀마 외주를 넘어선<br>원스톱 AI 파이프라인.</h1>
           <p class="hero-lead">미스터블루가 보유한 거장 IP의 정체성은 지키고, 제작 공정은 더 빠르고 정교하게 바꿉니다. Horizon은 대본 수령 이후 콘티·작화·채색·식자를 하나의 국내 AI 파이프라인으로 완결합니다.</p>
-          <div class="hero-actions">
-            <button class="primary-button" type="button" onclick="document.getElementById('showcase').scrollIntoView({behavior:'smooth'})">6대 메뉴 다시 보기</button>
-            <button class="secondary-button" type="button" data-view="v1">112쪽 제작 실증 확인</button>
-          </div>
-          <div class="metrics" aria-label="핵심 성과 지표">
-            <article class="metric-card"><div class="metric-number">11.8억원</div><h2>연간 운영비 절감 목표</h2><p>미얀마 외주 가공비 중심의 비용 구조를 국내 원스톱 AI 생산 체계로 전환합니다.</p></article>
-            <article class="metric-card"><div class="metric-number">70%</div><h2>제작 리드타임 단축</h2><p>수개월 단위의 분절된 제작 흐름을 주 단위 반복 생산이 가능한 체계로 압축합니다.</p></article>
-            <article class="metric-card"><div class="metric-number">461인</div><h2>거장 캐릭터 DNA 자산화</h2><p>황성 266인, 야설록 166인, 하승남 29인의 얼굴·골격·연기 DNA를 영구 보존합니다.</p></article>
-          </div>
         </div>
       </section>
 
-      <section class="section">
-        <div class="container">
-          <div class="section-head"><span class="section-index">01 · 제안 배경</span><h2>사업보고서의 비용 구조를<br>제작 경쟁력으로 전환합니다.</h2><p class="section-intro">미얀마 자회사와 외주 공정에 집중된 약 11.8억원 규모의 가공비는 비용뿐 아니라 일정, 품질, 지정학적 변수까지 함께 안고 있습니다. Horizon은 이 구조를 국내 통제형 제작 자산으로 바꾸는 실행안을 제안합니다.</p></div>
-          <div class="background-grid">
-            <article class="clean-card"><h3>공시 기반 문제 정의</h3><p>외부 생산 거점은 고정비 절감에 유효했지만, IP별 화풍 일관성·수정 왕복·납기 대응에서는 구조적인 지연이 발생합니다.</p><ul class="fact-list"><li><span class="list-number">1</span><span><strong>수정 왕복 최소화</strong><br>본사와 외주 스튜디오 사이의 반복 전달 공정을 단일 제작 셀로 통합합니다.</span></li><li><span class="list-number">2</span><span><strong>화풍과 배우 정체성 잠금</strong><br>거장별 캐릭터 DNA를 영구 배우 원장으로 관리합니다.</span></li><li><span class="list-number">3</span><span><strong>지정학적 리스크 분산</strong><br>핵심 생산 역량과 데이터를 국내 통제 환경에 축적합니다.</span></li></ul></article>
-            <article class="clean-card risk-card"><div class="risk-value">11.8억</div><h3>연간 비용 구조 최적화 대상</h3><p>단순 인건비 대체가 아니라 콘티, 작화, 채색, 식자 전 공정의 리드타임과 재작업 비용을 함께 줄이는 접근입니다.</p><div class="risk-line"></div><p><strong>제안 방향</strong><br>기존 작품의 감성을 훼손하지 않는 단계적 전환, 작품별 승인 게이트, 원본 대조 기록을 기본 계약으로 설정합니다.</p></article>
-          </div>
-        </div>
-      </section>
 
       <section class="section alt">
         <div class="container">
-          <div class="section-head"><span class="section-index">02 · 공정 혁신 대조</span><h2>다섯 번 넘기던 공정을<br>하나의 책임 체계로.</h2><p class="section-intro">미스터블루는 대본을 전달하고, Horizon은 콘티부터 최종 식자까지 결과물로 응답합니다. 공정마다 책임이 나뉘던 구조를 한 번의 승인 흐름으로 재설계합니다.</p></div>
+          <div class="section-head"><span class="section-index">01 · 공정 혁신 대조</span><h2>다섯 번 넘기던 공정을<br>하나의 책임 체계로.</h2></div>
           <div class="pipeline-grid">
             <article class="pipeline-card"><div class="pipeline-label"><h3>기존 외주형 5단계</h3><span>분절 생산</span></div><div class="steps"><div class="step"><span class="step-num">1</span><strong>대본</strong> 본사 기획 및 전달</div><div class="step"><span class="step-num">2</span><strong>콘티</strong> 장면 설계와 수정 왕복</div><div class="step"><span class="step-num">3</span><strong>뎃셍</strong> 인물·배경 초벌 작업</div><div class="step"><span class="step-num">4</span><strong>해외 렌더링</strong> 작화와 채색</div><div class="step"><span class="step-num">5</span><strong>본사 식자</strong> 최종 조립과 검수</div></div></article>
             <article class="pipeline-card future"><div class="pipeline-label"><h3>Horizon AI 원스톱</h3><span>통합 생산</span></div><div class="steps"><div class="step"><span class="step-num">1</span><strong>대본 수령</strong> 작품 규격과 승인 기준 잠금</div><div class="step"><span class="step-num">2</span><strong>DNA 캐스팅</strong> 거장별 영구 배우 정본 적용</div><div class="step"><span class="step-num">3</span><strong>콘티·작화·채색</strong> 한 파이프라인에서 동시 완결</div><div class="step"><span class="step-num">4</span><strong>식자·대조</strong> 원본과 결과물 자동 검수</div><div class="step"><span class="step-num">5</span><strong>납품</strong> 승인 기록과 재현 데이터 포함</div></div></article>
@@ -463,7 +452,7 @@
 
       <section class="section">
         <div class="container">
-          <div class="section-head"><span class="section-index">03 · 핵심 효용과 실증</span><h2>기술 설명보다<br>완성된 작품으로 증명합니다.</h2></div>
+          <div class="section-head"><span class="section-index">02 · 핵심 효용과 실증</span><h2>기술 설명보다<br>완성된 작품으로 증명합니다.</h2></div>
           <div class="proof-grid">
             <article class="proof-card"><span class="proof-key">PERMANENT ASSET</span><h3>거장 DNA 영구 보존</h3><p>얼굴, 골격, 표정, 먹선과 연기 범위를 배우 단위로 구조화하여 신작과 리메이크에 반복 활용합니다.</p></article>
             <article class="proof-card"><span class="proof-key">72 VOLUMES VERIFIED</span><h3>72권 전권 제작 실증</h3><p>황성 26권, 야설록 21권, 하승남 25권의 원작을 대조하며 AI 이질감을 줄이는 생산 규칙을 검증했습니다.</p></article>
